@@ -1,0 +1,235 @@
+﻿@model TechBiteERP.Model.Models.Branch
+@{
+    ViewData["Title"] = "Create Branch";
+    ViewData["CurrentPage"] = "Branch";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">Branch Defination</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="areaForm" method="post" asp-action="Create" asp-controller="Branch" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="ID" />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="POSCode" class="col-lg-4 control-label">POS Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="POSCode" readonly data-validation="required" class="form-control" />
+                                            <span asp-validation-for="POSCode" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="POSName" class="col-lg-4 control-label">POS Name</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="POSName" data-validation="required" class="form-control" />
+                                            <span asp-validation-for="POSName" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Address" class="col-lg-4 control-label">Address</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Address" data-validation="required" class="form-control" />
+                                            <span asp-validation-for="Address" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="PhoneNo" class="col-lg-4 control-label">Phone#</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PhoneNo" data-validation="required" class="form-control" />
+                                            <span asp-validation-for="PhoneNo" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BranchTypeId">Branch Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BranchTypeId" asp-items="@ViewBag.BranchType" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BranchTypeId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="RegionId">Region</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="RegionId" asp-items="@ViewBag.Region" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="RegionId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label asp-for="Abbreviation" class="col-lg-4 control-label">Abbreviation</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Abbreviation" data-validation="required" class="form-control" />
+                                            <span asp-validation-for="Abbreviation" class="text-danger"></span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-lg-6 col-md-2 col-sm-6 col-xs-6">
+                                <!-- Below is the Div for picture of product -->
+                                <h3><label>Customer Picture</label></h3>
+                                <div class="col-md-12" style="margin-left: -22px;">
+                                    @if (Model.Photo != null)
+                                    {
+                                        //<img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" height="300" width="300" />
+                                        <img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" id="file" style=" width: 172px; height : 110px;" />
+                                    }
+                                    else if (Model.Photo == null)
+                                    {
+                                        //<img src="~/img/a1.jpg" name="" class="img-thumbnail" alt="Upload Image" height="250" width="250" />
+                                        <img src="" name="img[]" id="file" class="img-thumbnail " title="Upload Image" style=" width: 172px; height: 110px;" />
+                                    }
+                                    <div class="form-group" style="margin-left: 5px;margin-top: 12px;">
+                                        <div class="text-left">
+                                            <input asp-for="Photo" type="hidden" />
+                                            <input name="img" type="file" id="upldImage" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       
+                       
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="col-lg-4 col-lg-offset-4">
+                                        <a class="btn btn-white" asp-action="Index" asp-controller="Branch">Back</a>
+                                        <input type="submit" value="Create" class="btn btn-primary" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+</form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var Address = $('#Address').val();
+            var POSName = $('#POSName').val();
+            var BranchTypeId = $('#BranchTypeId').val();
+            var RegionId = $('#RegionId').val();
+            var Abbreviation = $('#Abbreviation').val();
+            if (POSName == "") {
+                swal("", "Please Enter POS Name First", "error");
+                return false;
+            }
+            if (Address == "") {
+                swal("", "Please Enter Address First", "error");
+                return false;
+            }
+            if (BranchTypeId == null) {
+                swal("", "Please Select Branch Type First", "error");
+                return false;
+            }
+            if (RegionId == null) {
+                swal("", "Please Select Region First", "error");
+                return false;
+            } if (Abbreviation == null) {
+                swal("", "Please Select Abbreviation First", "error");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $(".custom-file-input").on("change", function () {
+                var filename = $(this).val().split("\\").pop();
+                $(this).next(".custom-file-lablel").html(filename);
+            });
+            $("#download").click(function (link) {
+                link.target.href = $cropped.cropper('getCroppedCanvas', { width: 620, height: 520 }).toDataURL("image/PNG").replace("image/PNG", "application/octet-stream");
+                link.target.download = 'cropped.png';
+            });
+        });
+    </script>
+    <script>
+        $(document).on("click", ".browse", function () {
+
+            var file = $(this).parents().find(".file");
+            file.trigger("click");
+        });
+        $('input[type="file"]').change(function (e) {
+
+            var fileName = e.target.files[0].name;
+            var id = e.target.id;
+            var reader = new FileReader();
+                debugger;
+                reader.onload = function (e) {
+                    document.getElementById("file").src = e.target.result;
+                };
+            
+            // read the image file as a data URL.
+            reader.readAsDataURL(this.files[0]);
+        });
+    </script>
+
+}

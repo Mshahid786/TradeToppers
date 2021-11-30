@@ -1,0 +1,215 @@
+﻿@model HREmployee
+@{
+    ViewData["Title"] = "Create Employee";
+    ViewData["CurrentPage"] = "Employee";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label"> Employee Defination</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="employeeForm" method="post" asp-action="Create" asp-controller="Employee" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="EmployeeID" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="EmployeeName" class="col-lg-4 control-label">Employee</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="EmployeeName" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="EmployeeName" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CreationDate" class="col-lg-4 control-label">Creation Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CreationDate" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CreationDate" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="FatherName" class="col-lg-4 control-label">Father Name</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="FatherName" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="FatherName" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="DateOFBirth" class="col-lg-4 control-label">Date OF Birth</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="DateOFBirth" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="DateOFBirth" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Address" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Address" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Email" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Email" name="Email" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CellNo1" class="col-lg-4 control-label">Cell No 1</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CellNo1" name="CellNo1" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CellNo1" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CellNo2" class="col-lg-4 control-label">Cell No 2</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CellNo2" name="CellNo2" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CellNo2" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ProvinceID" class="col-lg-4 control-label">Province</label>
+                                <div class="col-lg-8">
+                                    <select name="ProvinceID" class="form-control" asp-for="ProvinceID" asp-items="@ViewBag.Province">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="ProvinceID" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CityID" class="col-lg-4 control-label">City</label>
+                                <div class="col-lg-8">
+                                    <select name="CityID" class="form-control" asp-for="CityID" asp-items="@ViewBag.City">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CityID" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CountryId" class="col-lg-4 control-label">Country</label>
+                                <div class="col-lg-8">
+                                    <select name="CountryId" class="form-control" asp-for="CountryId" asp-items="@ViewBag.Country">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CountryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="Employee">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var EmployeeName = $('#EmployeeName').val();
+            var FatherName = $('#FatherName').val();
+            var CellNo1 = $('#CellNo1').val();
+            var ProvinceID = $('#ProvinceID').val();
+            var CityID = $('#CityID').val();
+            var CountryId = $('#CountryId').val();
+            if (EmployeeName == "") {
+                swal("", "Please Enter Employee Name First", "error");
+                return false;
+            }
+            if (FatherName == "") {
+                swal("", "Please Enter Father Name First", "error");
+                return false;
+            }
+            if (CellNo1 == "") {
+                swal("", "Please Enter Cell No 1 First", "error");
+                return false;
+            }
+            if (ProvinceID == null) {
+                swal("", "Please Select Province First", "error");
+                return false;
+            }
+            if (CityID == null) {
+                swal("", "Please Select City First", "error");
+                return false;
+            }
+            if (CountryId == null) {
+                swal("", "Please Select Country First", "error");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+}

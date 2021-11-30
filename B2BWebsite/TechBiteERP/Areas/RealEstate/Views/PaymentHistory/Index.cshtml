@@ -1,0 +1,61 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.PaymentHistory>
+
+@{
+    ViewData["Title"] = "Payment History";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>List Payment History</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="ibox-content">
+    <table class="table dataTable_Responsive">
+        <thead>
+            <tr>
+                <th>
+                    SR.No
+                </th>
+                <th>
+                    Plot
+                </th>
+                <th>
+                    Customer Name
+                </th>
+                <th>
+                    Payment Amount
+                </th>
+                <th>
+                    
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Plot.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CustomerName)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PaymentAmount)
+                    </td>
+
+                    <td>
+                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-angle-right"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs"><i class="fa fa-trash"></i></a>
+                        <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=PaymentHistory">Print</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

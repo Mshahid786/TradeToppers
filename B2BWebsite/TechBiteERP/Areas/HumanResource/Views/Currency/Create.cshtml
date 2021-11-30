@@ -1,0 +1,108 @@
+﻿@model TechBiteERP.Model.Models.Currency
+@{
+    ViewData["Title"] = "Create Currency";
+    ViewData["CurrentPage"] = "Currency";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">Currency Defination</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="areaForm" method="post" asp-action="Create" asp-controller="Currency" enctype="multipart/form-data"  onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="ID" />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="Code" class="col-lg-6 control-label">Code</label>
+                                <div class="col-lg-6">
+                                    <input asp-for="Code" readonly data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Code" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CurrencyDescription" class="col-lg-4 control-label">Currency Description</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CurrencyDescription" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CurrencyDescription" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Symbol" class="col-lg-4 control-label">Symbol</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Symbol" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Symbol" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="Currency">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var CurrencyDescription = $('#CurrencyDescription').val();
+            var Symbol = $('#Symbol').val();
+            if (Name == "") {
+                swal("", "Please Enter Name First", "error");
+                return false;
+            }
+            if (Symbol == "") {
+                swal("", "Please Enter Symbol First", "error");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+}

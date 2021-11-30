@@ -1,0 +1,232 @@
+﻿@model PriceList
+@{
+    ViewData["Title"] = "Create Price List";
+    ViewData["CurrentPage"] = "Price List";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">  Price List Defination</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="PriceListForm" method="post" asp-action="Create" asp-controller="PriceList" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="Id" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ItemID" class="col-lg-4 control-label">Item</label>
+                                <div class="col-lg-8">
+                                    <select name="ItemID" class="form-control" asp-for="ItemID" asp-items="@ViewBag.Items">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="ItemID" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="BrandId" class="col-lg-4 control-label">Brand</label>
+                                <div class="col-lg-8">
+                                    <select name="BrandId" class="form-control" asp-for="BrandId" asp-items="@ViewBag.Brands">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="BrandId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="AreaId" class="col-lg-4 control-label">Area</label>
+                                <div class="col-lg-8">
+                                    <select name="AreaId" class="form-control" asp-for="AreaId" asp-items="@ViewBag.Area">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="AreaId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CityId" class="col-lg-4 control-label">City</label>
+                                <div class="col-lg-8">
+                                    <select name="CityId" class="form-control" asp-for="CityId" asp-items="@ViewBag.City">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CityId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ProvinceId" class="col-lg-4 control-label">Province</label>
+                                <div class="col-lg-8">
+                                    <select name="ProvinceId" class="form-control" asp-for="ProvinceId" asp-items="@ViewBag.Province">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="ProvinceId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="DistrictId" class="col-lg-4 control-label">District</label>
+                                <div class="col-lg-8">
+                                    <select name="DistrictId" class="form-control" asp-for="DistrictId" asp-items="@ViewBag.District">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="DistrictId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="RegionId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="RegionId" class="form-control" asp-for="RegionId" asp-items="@ViewBag.Region">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="RegionId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Fromdate" class="col-lg-4 control-label">From Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Fromdate" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Todate" class="col-lg-4 control-label">To Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Todate" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="Price" class="col-lg-6 control-label">Price</label>
+                                <div class="col-lg-6">
+                                    <input asp-for="Price" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label asp-for="TagPrice" class="col-lg-4 control-label">Tag Price</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="TagPrice" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="TagPrice" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label asp-for="Discount" class="col-lg-4 control-label">Discount %</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Discount" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Discount" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="PriceCategoryId" class="col-lg-4 control-label">Price Category</label>
+                                <div class="col-lg-8">
+                                    <select name="PriceCategoryId" class="form-control" asp-for="PriceCategoryId" asp-items="@ViewBag.PriceCategory">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="PriceCategoryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="PackingId" class="col-lg-4 control-label">Packing</label>
+                                <div class="col-lg-8">
+                                    <select name="PackingId" class="form-control" asp-for="PackingId" asp-items="@ViewBag.Packings">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="PackingId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="PriceList">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var Name = $('#Name').val();
+            if (Name == "") {
+                swal("", "Please Enter Name First", "error");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+
+
+}

@@ -1,0 +1,187 @@
+﻿@model GLAccount
+@{ ViewData["Title"] = "COA";
+    ViewData["CurrentPage"] = "COA";
+
+}
+
+<link href="~/css/plugins/jsTree/style.css" rel="stylesheet" />
+<div class="modal inmodal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+
+</div>
+
+<div class="col-lg-12">
+    <h2 style="color:red;"> <label class="control-label">  Chart Of Account</label></h2>
+    <div id="treeView">
+    </div>
+</div>
+
+
+@section customJS{
+    <script src="~/js/plugins/jsTree/jstree.min.js"></script>
+    <script src="~/js/plugins/sweetalert/sweetalert.min.js"></script>
+
+    <script>
+        $("#treeView").jstree(
+            {
+                "core": {
+                    "data": {
+                        "url": function (node) {
+                            debugger;
+
+                            return "/GeneralLedger/ChartofAccount/GetChartofAccount";
+                        },
+                        "data": function (node) {
+                            return { "id": node.id };
+                        }
+                    },
+                    "check_callback": true,
+                    "themes": { "stripes": true },
+                    "animation": 0
+                },
+                "plugins": [
+                    "contextmenu", "search", "state",
+                    "wholerow", "sort"
+                ],
+                "contextmenu": {
+                    "items": function ($node) {
+                        var tree = $("#treeView").jstree(true);
+                        return {
+                            "Create Sibling": {
+                                "separator_before": false,
+                                "separator_after": false,
+                                "label": "Create Sibling",
+                                "action": function (obj) {
+                                    debugger;
+                                    //tree.edit($node);
+                                    CreateNode($node);
+                                }
+                            },
+                            "Create Child": {
+                                "separator_before": false,
+                                "separator_after": false,
+                                "label": "Create Child",
+                                "action": function (obj) {
+                                    CreateChildNode($node);
+                                    //tree.edit($node);
+                                }
+                            },
+                            "Edit": {
+                                "separator_before": true,
+                                "separator_after": false,
+                                "label": "Edit",
+                                "action": function (obj) {
+                                    EditNode($node);
+                                }
+                            }
+                            ,
+                            "Delete": {
+                                "separator_before": true,
+                                "separator_after": false,
+                                "label": "Delete",
+                                "action": function (obj) {
+                                    DeleteNode($node);
+                                }
+                            }
+                        };
+                    }
+                }
+            });
+
+        var to = false;
+        $("#treeViewSearch").keyup(function () {
+            debugger;
+            if (to) { clearTimeout(to); }
+            to = setTimeout(function () {
+                var v = $("#treeViewSearch").val();
+                $('#treeView').jstree(true).search(v);
+            }, 250);
+        });
+        function CreateNode(node) {
+            if (node.parent == "#") {
+                swal("Error", "You can't create account on first level", "warning");
+                return;
+            }
+            $.ajax({
+                url: "/GeneralLedger/ChartofAccount/CreateSibling?id=" + node.parent
+            })
+                .done(function (data) {
+                    $("#modal").html(data);
+                    $("#modal").modal("show");
+                })
+                .fail(function (data) {
+                    swal("Error", data.statusText, "warning");
+                });
+        }
+        function CreateChildNode(node) {
+            if (node.parents.length == 5) {
+                swal("Entry account", "You can't create child account", "warning");
+                return;
+            }
+            $.ajax({
+                url: "/GeneralLedger/ChartofAccount/CreateChild?id=" + node.id
+            })
+                .done(function (data) {
+                    $("#modal").html(data);
+                    $("#modal").modal("show");
+                })
+                .fail(function (data) {
+                    swal("Error", data.statusText, "warning");
+                });
+        }
+        function EditNode(node) {
+            debugger;
+            $.ajax({
+                url: "/GeneralLedger/ChartofAccount/Edit?id=" + node.id
+            })
+                .done(function (data) {
+                    $("#modal").html(data);
+                    $("#modal").modal("show");
+                })
+                .fail(function (data) {
+                    swal("Error", data.statusText, "warning");
+                });
+        }
+        function DeleteNode(node) {
+
+            debugger;
+            var tree = $('#treeView').jstree(true);
+            //tree.delete_node(node);
+            if (node.children_d.length != 0) {
+                swal("Can't delete account", "Please delete all child account first", "warning");
+                return;
+            }
+            swal({
+                title: "Are you sure, you want to delete?",
+                text: node.text,
+                icon: "warning",
+                buttons: [true, "Yes, delete it!"],
+                dangerMode: true
+            }).then((willDelete) => {
+                if (willDelete) {
+                    $.ajax({
+                        url: "/GeneralLedger/ChartofAccount/Delete?id=" + node.id
+                    })
+                        .done(function (data) {
+                            if (data.success) {
+                                tree.delete_node(node);
+                                toasterMessage(false, data.message, node.text);
+                            }
+                            else {
+                                toasterMessage(true, data.message, node.text);
+                            }
+                        })
+                        .fail(function (data) {
+                            swal(
+                                {
+                                    icon: "error",
+                                    text: data.responseText,
+                                    dangerMode: true
+                                }
+                            );
+                        });
+                }
+            });
+        }
+    </script>
+}
+

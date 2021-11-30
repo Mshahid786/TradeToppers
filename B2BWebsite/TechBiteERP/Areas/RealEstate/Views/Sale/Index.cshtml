@@ -1,0 +1,83 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.PlotSale>
+
+@{
+    ViewData["Title"] = "Sale";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Sale</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of Sale</h5>
+
+                <div class="ibox-content">
+                    <table class="table dataTable_Responsive table-bordered  ">
+                        <thead>
+                            <tr>
+                                <th>
+                                    SR.No
+                                </th>
+                                <th>
+                                    Plot
+                                </th> 
+                                <th>
+                                    Plot Size
+                                </th>
+                                <th>
+                                    Plot Price
+                                </th>
+
+                                <th>
+                                    Plot Status
+                                </th>
+                                <th>
+                                    Reserved By
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PlotName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Size)
+                                    </td> 
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Price)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PlotStatus.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ReservedBy)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-angle-right"></i></a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs"><i class="fa fa-trash"></i></a>
+                                        <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=PlotSale">Print</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

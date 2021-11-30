@@ -1,0 +1,92 @@
+﻿@*@model IEnumerable<TechBiteERP.Model.Models.Branch>*@
+@{
+    Layout = null;
+    <style>
+        .heading {
+    color: forestgreen;
+    }
+    </style>
+
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechBite | Branch</title>
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    
+</head>
+<body class="dwhite-bg">
+    <div class="row col-lg-12 text-center">
+        <h1 class="text-danger"> Where We have To Go </h1><br />
+    </div>
+    <div class="row" style="margin-top: 10%;">
+
+        <div class="col-sm-12 justify-content-center row">
+            <div class="col-sm-4 ml-2 myTable text-center pt-4 shadow">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=1" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch0"]" class="rounded" width="250" height="120">
+                    <h3>&nbsp;</h3>
+                </a>
+            </div>
+            <div class="col-sm-4 ml-2 myTable shadow text-center pt-4" onmouseover="">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=2" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch1"]" class="rounded" width="250" height="120">
+                    <h3 class="text-center">&nbsp;</h3>
+                </a>
+            </div>
+            <div class="col-sm-3 ml-2 myTable shadow text-center pt-4" onmouseover="">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=3" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch2"]" class="rounded" width="250" height="120">
+                    <h3 class="text-center">&nbsp;</h3>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-12 justify-content-center mt-4 row">
+            <div class="col-sm-4 myTable shadow text-center pt-4" onmouseover="">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=4" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch3"]" class="rounded" width="250" height="120">
+                    <h3 class="text-center">&nbsp;</h3>
+                </a>
+            </div>
+            <div class="col-sm-4 ml-2 myTable shadow text-center pt-4" onmouseover="">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=5" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch4"]" class="rounded" width="250" height="120">
+                    <h3 class="text-center">&nbsp;</h3>
+                </a>
+            </div>
+            <div class="col-sm-4 ml-2 myTable text-center pt-4 shadow">
+                <a href="~/BranchDashBoard/AssignBranch?branchId=6" style="cursor:pointer;text-decoration:none;" target="_blank">
+                    <img src="@TempData["Branch5"]" class="rounded" width="250" height="120">
+                    <h3>&nbsp;</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="~/js/jquery-3.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+
+
+</body>
+
+</html>
+
+<script>
+    $.validate();
+</script>
+
+
+

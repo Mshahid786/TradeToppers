@@ -1,0 +1,64 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.FinYear>
+
+@{
+    ViewData["Title"] = "Index";
+    ViewData["CurrentPage"] = "List Financial Year";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of Financial Year</h5>
+
+                <div class="ibox-content">
+                    <div class="text-center">
+                        <a class="btn btn-primary pull-left m-t-n-xs" asp-action="Create"><strong>Create</strong></a>
+                    </div>
+                    <table class="table dataTable_Responsive">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                   Financial Year
+                                </th>
+                                <th>
+                                    EXtra Rate
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.FYear)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EXRate)
+                                    </td>
+                                     
+                                    <td>
+                                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+                                        <a asp-action="Delete" asp-controller="FinYear" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs" onclick="return confirm('Are you sure you want to Delete Voucher?')"><i class="fa fa-trash-alt"></i></a>
+                                        @*<a asp-action="AssignRole" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-user"></i></a>*@
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

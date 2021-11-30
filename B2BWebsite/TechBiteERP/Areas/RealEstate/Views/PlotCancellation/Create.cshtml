@@ -1,0 +1,151 @@
+﻿@model TechBiteERP.Model.Models.PlotCancellation
+
+
+@{
+    ViewData["Title"] = "Plot Cancellation";
+    ViewData["CurrentPage"] = "Plot Cancellation";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">  Add New Plot Cancellation </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="PlotCancellation" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotId">Plot</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotId" asp-items="@ViewBag.Items" class="form-control" data-validation="required" onchange="getItemDetail();">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PlotId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label -for="Block" class="control-label col-lg-4">  Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Block"name="Block" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ActionType">Action Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ActionType" asp-items="@ViewBag.ActionType" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ActionType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="LogDate" class="control-label datepicker col-lg-4">Log Date</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="LogDate" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="CourierRef" class="control-label col-lg-4"> Courier Ref</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CourierRef" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="CourierDate" class="control-label datepicker col-lg-4">Courier Date</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CourierDate" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/PlotCancellation/Index" sp-controller="PlotCancellation" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="PlotCancellation" />
+                               @if (Model.Id != 0)
+                               {
+                                <a class="btn btn-primary" href="~/Report/PrintBaseReport?id=@Model.Id&&reportName=PlotCancellation">Print</a>
+                               }
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            var Block = $('#Block').val();
+            var ActionType = $('#ActionType').val();
+            var CourierRef = $('#CourierRef').val();
+            if (PlotId == "Select...") {
+                swal("", "Please Select Plot Field.", "error");
+                return false;
+
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Plot First", "error");
+                return false;
+            }
+            if (Block == null) {
+                swal("", "Please Select Block First", "error");
+                return false;
+            }
+            if (ActionType == null) {
+                swal("", "Please Select Action Type First", "error");
+                return false;
+            }
+            if (CourierRef == null) {
+                swal("", "Please Select Courier Ref First", "error");
+                return false;
+            }
+            return true;
+        }
+
+        function getItemDetail() {
+            var PlotId = $('#PlotId').val();
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#Block').val(data.blockID);
+            });
+        }
+    </script>
+}

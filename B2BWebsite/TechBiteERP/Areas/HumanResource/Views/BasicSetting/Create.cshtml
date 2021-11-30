@@ -1,0 +1,502 @@
+﻿@model TechBiteERP.Model.Models.BasicSetting
+
+
+@{
+    ViewData["Title"] = "Basic Setting";
+    ViewData["CurrentPage"] = "Basic Setting";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                 
+                <h2 style="color:red;"> <label class="control-label"> Account Integrations & Voucher Settings</label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="BasicSetting" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BankAccountId">Bank Control Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BankAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BankAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CashAccountId">Cash Control Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CashAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CashAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="RFAccountId">RF Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="RFAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="RFAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SalesDiscountAccountId">Sales Discount Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SalesDiscountAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SalesDiscountAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="AdjSalesRAccountId">Adj on Sales Return A/C No:</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="AdjSalesRAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="AdjSalesRAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MarketingExpenseAccountId">Marketing Expense A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MarketingExpenseAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MarketingExpenseAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="AnnualDiscountId">Annual Discount A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="AnnualDiscountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="AnnualDiscountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="OtherAccountId">Other A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="OtherAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="OtherAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PurchaseVoucherType"> Purchase Voucher Type </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PurchaseVoucherType" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PurchaseVoucherType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CreditNoteVoucher">Credit Note Voucher</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CreditNoteVoucher" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CreditNoteVoucher" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MaterialIssueVType">Material Issue V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MaterialIssueVType" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MaterialIssueVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SampleIssueVType">Sample Issue V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SampleIssueVType" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SampleIssueVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="STRVoucherType">STR Voucher Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="STRVoucherType" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="STRVoucherType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="WHTPayable">WHT Payable A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="WHTPayable" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="WHTPayable" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="unappPlsDetailAccountId">Un-App PLS Detail Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="unappPlsDetailAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="unappPlsDetailAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CashSaleAccountId">Cash Sale Account</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CashSaleAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CashSaleAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="FreightInwardAccontId">Freight Inward Accont</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="FreightInwardAccontId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="FreightInwardAccontId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MiscExpensesAccountId">Misc Expenses  A/C No:</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MiscExpensesAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MiscExpensesAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SaleTaxPayableAccountId">SaleTax Payable A/C</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SaleTaxPayableAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SaleTaxPayableAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SaleTaxRefundableAccontId">Sales Tax Refundable A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SaleTaxRefundableAccontId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SaleTaxRefundableAccontId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="WastageAccountId">Wastage A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="WastageAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="WastageAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CollecctionDiscontId">Collecction Discont A/C No  </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CollecctionDiscontId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CollecctionDiscontId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="TokenAccountId"> Token A/C No </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="TokenAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="TokenAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BiltyAccountId">Bilty A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BiltyAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BiltyAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="AdjustedItemAccountId">Adjusted Item A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="AdjustedItemAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="AdjustedItemAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SamplefocAccountId">Sample foc A/C No</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SamplefocAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SamplefocAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CreditorsControl">Creditors Control Account </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CreditorsControl" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CreditorsControl" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="DebitorsControl"> Debitors Control Account </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="DebitorsControl" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="DebitorsControl" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="SalesVoucherType" class="control-label col-lg-4">Sales Voucher Type  </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="DebitNoteVoucher" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="DebitNoteVoucher" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="DebitNoteVoucher">Debit Note Voucher</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="DebitNoteVoucher" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="DebitNoteVoucher" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SalesRetrnVType">Sales Retrn V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SalesRetrnVType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SalesRetrnVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PurchaseReturnVType">Purchase Return V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PurchaseReturnVType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PurchaseReturnVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="IssueReturnVType">Issue Return V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="IssueReturnVType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="IssueReturnVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="FGQAVType">FG QA V Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="FGQAVType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="FGQAVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="StockAdjVType">Stock Adj V Type </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="StockAdjVType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="StockAdjVType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="STNVoucherType"> STN Voucher Type </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="STNVoucherType" asp-items="@ViewBag.Vtype" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="STNVoucherType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label asp-for="WarrentyText" class="control-label col-lg-2">Warrenty Text</label>
+                                        <div class="col-lg-10">
+                                            <textarea asp-for="WarrentyText" class="form-control" data-validation="required" rows="3"></textarea>
+                                            <span asp-validation-for="WarrentyText" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                @*<a value="Create" class="btn btn-white" asp-controller="BasicSetting" asp-action="Index">Back</a>*@
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="BasicSetting" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    
+}

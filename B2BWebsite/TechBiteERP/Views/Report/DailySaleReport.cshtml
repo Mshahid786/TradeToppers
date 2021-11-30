@@ -1,0 +1,132 @@
+﻿@model TechBiteERP.Model.Models.GLAccount
+@{
+    ViewData["Title"] = "Reports";
+    ViewData["CurrentPage"] = "Reports";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="~/css/datapicker/datepicker3.css" rel="stylesheet" />
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">@TempData["ReportName"]</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="reportForm" method="post" asp-action="Create" asp-controller="Report" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Report Name</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Reports" autofocus class="form-control" id="ReportTitle" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Branch</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Branch" autofocus class="form-control" id="Branch" data-validation="required" name="Branch">
+                                        <option disabled="disabled" selected="selected">Select Branch...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label" -for="AccountLevel"> Customer</label>
+                                <div class="col-lg-8">
+                                    <select -for="CustomerId" name="CustomerId" asp-items="@ViewBag.Customers" id="fromAccount" class="form-control">
+                                        @*<option selected="selected" disabled>Select...</option>*@
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="col-lg-4" style="padding-left: 104px;"> Date </label>
+                                 
+                                    @*<label -for="Date" class=" control-label"> From </label>*@
+                                    <div class="col-lg-8">
+                                        <div class="input-group date">
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                            <input Asp-for="CreatedDate" id="CreatedDate" class="form-control" value="@DateTime.Now.ToString("dd/MMM/yyyy")" type="text" />
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label" -for="AccountLevel"> Sale Type</label>
+                                <div class="col-lg-8">
+                                    <select -for="saleTypeId" name="saleTypeId" asp-items="@ViewBag.ReportType" id="saleTypeId" class="form-control">
+                                         @*<option selected="selected" disabled>Select...</option>*@ 
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-3">
+                                    @*<a class="btn btn-white" asp-action="Print" asp-controller="Report">Print</a>*@
+                                    <a class="btn btn-primary" -action="Print" -controller="Report" onclick="generateReport();">Print</a>
+                                    @*<input type="submit" value="Create" class="btn btn-primary" />*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function generateReport() {
+            debugger;
+    $.post('/Report/Create',
+        $("#reportForm").serialize()).done(function (data) {
+            var reportURL = data;
+            window.open(reportURL, "_blank");
+        }).fail(function (data) {
+        });;
+}
+    </script>
+
+}

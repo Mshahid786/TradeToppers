@@ -1,0 +1,421 @@
+﻿@model TechBiteERP.Model.Models.PriceListNew
+
+
+@{
+    ViewData["Title"] = "Price List New";
+    ViewData["CurrentPage"] = "Price List New";
+    var count = 1;
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label">  Add New Price List  </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="PriceListNew" onsubmit="return submitdetails();" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-3 control-label" asp-for="ItemId">Item</label>
+                                        <div class="col-lg-9">
+                                            <select asp-for="ItemId" asp-items="@ViewBag.Items" onchange="getItemDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ItemId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <label -for="ItemDescription" class="control-label col-lg-4">  Item Description</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemDescription" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-2 col-sm-3 hidden">
+                                    <div class="form-group">
+                                        <label>Sr</label>
+                                        <input id="Sr" class="form-control on-focus-change-color" type="text" />
+                                        <input id="PlanDetailId" class="form-control on-focus-change-color hidden" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>MR Price</label>
+                                        <input id="MRPrice" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Trade Price</label>
+                                        <input id="TradePrice" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>R.P</label>
+                                        <input id="RP" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Discount %</label>
+                                        <input id="Discount" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-1 m-t-md">
+                                    <div class="form-group pull-right">
+                                        <button tabindex="12" id="btnAdd1" type="button" class="btn btn-primary" onclick="addrows();">ADD</button>
+                                        <button id="btnUpdateMaster" style="display:none;" type="button" onclick="updaterows();" class="btn btn-primary">Update</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-3 col-sm-3">
+                                    <div class="form-group">
+                                        <label asp-for="CreationDate" class="control-label datepicker">Start Date</label>                                      
+                                            <input asp-for="CreationDate" id="StartDate" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-3">
+                                    <div class="form-group">
+                                        <label asp-for="CreationDate" class="control-label datepicker">End Date</label>
+                                            <input asp-for="CreationDate" id="EndDate" class="form-control" /> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Comments</label>
+                                        <input id="Comments" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <input hidden id="tblPaymentPlanDetails" name="tblPaymentPlanDetails" type="text" />
+
+                    <div class="container-fluid" style="background-color:white;">
+
+                        <table id="tblpaymentPlan" name="tableitems" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>MR Price</th>
+                                    <th>Trade Price</th>
+                                    <th>RP</th>
+                                    <th>Discount %</th>
+                                    <th>StartDate</th>
+                                    <th>EndDate</th>
+                                    <th>Comments</th>
+                                    <th>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.PriceListDetails != null)
+                                {
+                                    @if (Model.PriceListDetails.Count > 0)
+                                    {
+                                        foreach (var items in Model.PriceListDetails)
+                                        {
+                                            
+                                            <tr>
+                                                <td name='PlanDetailId' hidden class='PlanDetailId'>@items.PriceDetailId</td>
+                                                <td name='Sr' class='Sr'>@items.Sr </td>
+                                                <td name='MRPrice' class='text-left MRPrice'>@items.MRPrice</td>
+                                                <td name='TradePrice'  class='TradePrice'>@items.TradePrice</td>
+                                                <td name='RP' class='text-left RP'>@items.RP</td>
+                                                <td name='Discount' class='text-left Discount'>@items.DiscountPer</td>
+                                                <td name='StartDate' class='text-right StartDate'>@items.StartDate</td>
+                                                <td name='EndDate' class='text-right EndDate'>@items.EndDate</td>
+                                                <td name='Comments' class='text-right Comments'>@items.Comments</td>
+                                                <td class="text-center"><a class="btn btn-sm btn-info"> <i class="fa fa-edit" title="Edit"></i></a><a class=""> </a><a class="btn btn-danger"><i class="fas fa-trash remove-row"></i></a></td>
+                                            </tr>
+                                            count++;
+
+                                        }
+                                    }
+                                }
+
+                            </tbody>
+                            @*<tfoot align="right">
+                                <tr><th></th><th></th><th class='text-right'>Total :</th><th class='text-right'>0.00</th></tr>
+                            </tfoot>*@
+                        </table>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/PriceListNew/Index" sp-controller="PriceListNew" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="PriceListNew" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    @*<script src="~/js/Journal/PaymentPlan.js"></script>*@
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+
+        function addrows() {
+            debugger;
+            var count = 1;
+            var PlanDetailId = $("#PlanDetailId").val();
+            var Sr = $("#Sr").val();
+            var MRPrice = Number($("#MRPrice").val());
+            var TradePrice = $("#TradePrice").val();
+            var RP = $("#RP").val();
+            var Discount = $("#Discount").val();
+            var StartDate = $("#StartDate").val();
+            var EndDate = $("#EndDate").val();
+            var Comments = $("#Comments").val();
+            if ((MRPrice != 0)) {
+                debugger;
+                var row = "<tr>" +
+                    "<td name='PlanDetailId' hidden class='PlanDetailId'>" + PlanDetailId + "</td>" +
+                    "<td name='Sr'  class='Sr' >" + count + "</td>" +
+                    "<td name='MRPrice' class='MRPrice'>" + MRPrice + "</td>" +
+                    "<td name='TradePrice'  class='TradePrice text-right'>" + TradePrice + "</td>" +
+                    "<td name='RP'  class='RP text-right'>" + RP + "</td>" +
+                    "<td name='Discount'  class='Discount text-right'>" + Discount + "</td>" +
+                    "<td name='StartDate' class='StartDate'>" + StartDate + "</td>" +
+                    "<td name='EndDate' class='EndDate'>" + EndDate + "</td>" +
+                    "<td name='Comments' class='Comments'>" + Comments + "</td>" +
+                    '"<td  class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+                    "</tr>";
+                count++;
+                $("#tblpaymentPlan tbody").append(row);
+            }
+            else if (itemt == "Select...") {
+                swal("", "Please Select Bubble Duration ", "error");
+                return false;
+            }
+            else {
+
+                swal("", "Amount Should be Grater than 0!", "error");
+                return false;
+            }
+
+            // validate();
+            clearScreen();
+        }
+        function clearScreen() {
+
+            $('#PlanDetailId').val('');
+            $('#Sr').val('');
+            $('#MRPrice').val('');
+            $('#TradePrice').val('');
+            $('#RP').val('');
+            $('#Discount').val('');
+            $('#StartDate').val('');
+            $('#EndDate').val('');
+            $('#Comments').val('');
+        }
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#ItemId').val();
+            
+            if (PlotId == "Select...") {
+                swal("", "Please Select Item First", "error");
+                return false;
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Item First", "error");
+                return false;
+            }
+            return true;
+        }
+        $(document).ready(function () {
+            //var count = 1;
+           // validate();
+            $('#tblpaymentPlan tbody tr').each(function (idx) {
+                $(this).children("td:eq(0)").html(idx + 1);
+                $(this).children("td:eq(1)").html(idx + 1);
+            });
+        });
+
+
+        function getItemDetail() {
+            var PlotId = $('#ItemId').val();
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                $('#ItemDescription').val(data.description);
+            });
+        }
+    </script>
+
+    <script>
+
+
+        function updaterows() {
+
+            debugger;
+            var PlanDetailId = $("#PlanDetailId").val();
+            var Sr = $("#Sr").val();
+            var MRPrice = Number($("#MRPrice").val());
+            var TradePrice = $("#TradePrice").val();
+            var RP = $("#RP").val();
+            var Discount = $("#Discount").val();
+            var StartDate = $("#StartDate").val();
+            var EndDate = $("#EndDate").val();
+            var Comments = $("#Comments").val();
+            if ((MRPrice != 0)) {
+                debugger;
+                var row = "<tr>" +
+                    "<td name='PlanDetailId' hidden class='PlanDetailId'>" + PlanDetailId + "</td>" +
+                    "<td name='Sr'  class='Sr' >" + Sr + "</td>" +
+                    "<td name='MRPrice' class='MRPrice'>" + MRPrice + "</td>" +
+                    "<td name='TradePrice'  class='TradePrice text-right'>" + TradePrice + "</td>" +
+                    "<td name='RP'  class='RP text-right'>" + RP + "</td>" +
+                    "<td name='Discount'  class='Discount text-right'>" + Discount + "</td>" +
+                    "<td name='StartDate' class='StartDate'>" + StartDate + "</td>" +
+                    "<td name='EndDate' class='EndDate'>" + EndDate + "</td>" +
+                    "<td name='Comments' class='Comments'>" + Comments + "</td>" +
+                    '"<td  class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+                    "</tr>";
+                 
+            $("#tblpaymentPlan tbody").append(row);
+            $('#btnUpdateMaster').css('display', 'none');
+            $('#btnAdd1').css('display', 'block');
+
+            } else if (itemt == "Select...") {
+                swal("", "Please Select Bubble Duration ", "error");
+                return false;
+            }
+            else {
+
+                swal("", "Amount Should be Grater than 0!", "error");
+                return false;
+            }
+
+            // validate();
+            clearScreen();
+        }
+    </script>
+
+    <script>
+        $("#tblpaymentPlan tbody").on("click", ".fa-edit", function () {
+            //    var check = "";
+            if ($('#btnUpdateMaster').css('display') == 'none') {
+                debugger;
+                $('#AccountId').val('');
+                var $item0 = Number($(this).closest("tr")
+                    .find(".PlanDetailId")
+                    .html());
+                var $item1 = Number($(this).closest("tr")
+                    .find(".Sr")
+                    .html());
+                var $item2 = $(this).closest("tr")
+                    .find(".MRPrice")
+                    .html();
+                var $item3 = $(this).closest("tr")
+                    .find(".TradePrice")
+                    .html();
+                var $item4 = Number($(this).closest("tr")
+                    .find(".RP")
+                    .html());
+                var $item5 = Number($(this).closest("tr")
+                    .find(".Discount")
+                    .html());
+                var $item6 = $(this).closest("tr")
+                    .find(".StartDate")
+                    .html();
+                var $item7 = $(this).closest("tr")
+                    .find(".EndDate")
+                    .html();
+                var $item8 = $(this).closest("tr")
+                    .find(".Comments")
+                    .html();
+                // $("#DueDate").val("2013-03-18T13:00");
+
+
+                $('#PlanDetailId').val($item0);
+                $('#Sr').val($item1);
+                $('#MRPrice').val($item2);
+                $('#TradePrice').val($item3);
+                $('#RP').val($item4);
+                $('#Discount').val($item5);
+                $('#StartDate').val($item6);
+                $('#EndDate').val($item7);
+                $('#Comments').val($item8);
+                $(this).closest("tr").remove();
+                $('#btnUpdateMaster').css('display', 'block');
+                $('#btnAdd1').css('display', 'none');
+
+              //  validate();
+
+            }
+            else if ($('#btnUpdateMaster').css('display') == 'block') {
+
+                swal("", "Please Finish Updating .", "warning");
+            }
+        });
+
+        $("#tblpaymentPlan tbody").on("click", ".remove-row", function () {
+
+            $(this).closest('tr').remove();
+            validate();
+
+        });
+
+    </script>
+    <script>
+            function submitdetails() {
+                debugger;
+                checkValidation();
+                var formdetails = [];
+                $.each($("#tblpaymentPlan tbody tr"), function () {
+                    formdetails.push({
+                        PlanDetailId: Number($(this).find('.PlanDetailId').html()),
+                        Sr: parseInt($(this).find('.Sr').html()),
+                        MRPrice: $(this).find('.MRPrice').html(),
+                        TradePrice: $(this).find('.TradePrice').html(),
+                        RP: $(this).find('.RP').html(),
+                        DiscountPer: $(this).find('.Discount').html(),
+                        StartDate: $(this).find('.StartDate').html(),
+                        EndDate: $(this).find('.EndDate').html(),
+                        Comments: $(this).find('.Comments').html(),
+                    });
+
+                });
+                if (formdetails.length == 0) {
+
+                    swal("", "Enter at least 1 record", "error");
+                    return false;
+                }
+                else {
+                    var model = JSON.stringify(formdetails);
+                    $("#tblPaymentPlanDetails").val(model);
+                }
+
+                return true;
+            }
+    </script>
+
+}

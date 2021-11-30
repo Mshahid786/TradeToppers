@@ -1,0 +1,231 @@
+﻿@model TechBiteERP.Model.Models.PaymentHistory
+
+
+@{
+    ViewData["Title"] = "Payment History";
+    ViewData["CurrentPage"] = "Payment History";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                
+                <h2 style="color:red;"> <label class="control-label">  Add New Payment History </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="PaymentHistory" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotId">Plot</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotId" asp-items="@ViewBag.Items" onchange="getItemDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PlotId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Block" class="control-label col-lg-4">  Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Block" class="form-control" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CustomerId">Customer</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CustomerId" asp-items="@ViewBag.Customers" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CustomerId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="CustomerCNIC" class="control-label col-lg-4">Customer CNIC</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CustomerCNIC" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PayType">Pay Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PayType" asp-items="@ViewBag.PayType" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PayType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="PaymentAmount" class="control-label col-lg-4">Payment Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PaymentAmount" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="DealAmount" class="control-label col-lg-4"> Deal Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="DealAmount" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="PaidAmount" class="control-label col-lg-4"> Paid Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PaidAmount" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PaymentType">Payment Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PaymentType" asp-items="@ViewBag.PaymentType" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PaymentType" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="DepositeSlip" class="control-label col-lg-4"> Deposite Slip</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="DepositeSlip" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/PaymentHistory/Index" sp-controller="PaymentHistory" sp-action="Index">List</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="PaymentHistory" />
+                                @if (Model.Id != 0)
+                                {
+                                <a class="btn btn-primary" href="~/Report/PrintBaseReport?id=@Model.Id&&reportName=PaymentHistory">Print</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script>
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            var BlockId = $('#BlockId').val();
+            var PayType = $('#PayType').val();
+            var PaymentType = $('#PaymentType').val();
+            var CustomerName = $('#CustomerName').val();
+            var CustomerCNIC = $('#CustomerCNIC').val();
+            var DealAmount =Number($('#DealAmount').val());
+            if (PlotId == "Select...") {
+                swal("", "Please Select Plot Field.", "error");
+                return false;
+
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Plot First", "error");
+                return false;
+            }
+            //if (BlockId == null) {
+            //    swal("", "Please Select Block First", "error");
+            //    return false;
+            //}
+            if (PayType == null) {
+                swal("", "Please Select Pay Type First", "error");
+                return false;
+            }
+            if (PaymentType == null) {
+                swal("", "Please Select Payment Type First", "error");
+                return false;
+            }
+            if (CustomerName == "") {
+                swal("", "Please Enter Customer Name First", "error");
+                return false;
+            }
+            if (CustomerCNIC == "") {
+                swal("", "Please Enter Customer CNIC First", "error");
+                return false;
+            }
+            if (DealAmount == 0) {
+                swal("", "Deal Amount Must be Greater than 0", "error");
+                return false;
+            }
+            return true;
+        }
+
+        function getItemDetail() {
+            var PlotId = $('#PlotId').val();
+
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#Block').val(data.blockID);
+            });
+
+            var customerCNIC = $('#PlotId').val();
+            var blockId = $('#BlockId').val();
+            $.ajax({
+                url: '/RealEstate/PaymentHistory/getRegisterationDetail?PlotId=' + PlotId ,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                if (data != undefined) {
+                    $('#CustomerName').val(data.customerName);
+                    $('#CustomerCNIC').val(data.cnic);
+                    $('#DealAmount').val(data.plotPrice);
+                  //  $('#Block').val(data.block);
+                }
+                //if (data.itemID != null) {
+                //    $.ajax({
+                //        url: '/RealEstate/Sale/getItemPrice?id=' + data.itemID,
+                //        type: 'GET'
+                //    }).done(function (data) {
+                //        debugger;
+                //        if (data != undefined)
+                //            $('#Price').val(data.price);
+                //        else
+                //            $('#Price').val(0)
+                        
+                //    });
+                //}
+            });
+        }
+    </script>
+}

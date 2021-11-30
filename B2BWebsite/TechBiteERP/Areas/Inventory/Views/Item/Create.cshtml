@@ -1,0 +1,528 @@
+﻿@model TechBiteERP.Model.Models.Item
+
+
+@{
+    ViewData["Title"] = "Items";
+    ViewData["CurrentPage"] = "Items";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label"> Item Defination </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="Item" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="hidden" asp-for="ItemID" />
+                                        <label asp-for="ItemCode" class="col-lg-4 control-label">Item Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemCode" value="@TempData["MaxNo"]" readonly class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemCode" class="text-danger"></span>
+                                            <span id="Status"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="Description" class="control-label col-lg-4">  Description</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Description" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                 
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="StockGLAccountId">Stock GL Code</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="StockGLAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="StockGLAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MaterialGLAccountId">Material GL Code</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MaterialGLAccountId" asp-items="@ViewBag.Accounts" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MaterialGLAccountId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="itemReOrderlevel" class="control-label col-lg-4">Re Order level</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="itemReOrderlevel" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="itemReOrderlevel" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>*@
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="GenericCode" class="col-lg-4 control-label">Generic Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="GenericCode" class="form-control" />
+                                            <span asp-validation-for="GenericCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="ItemGroupCode" class="control-label col-lg-4">Item Group Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemGroupCode" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemGroupCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ItemClassID">Item Class </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ItemClassID" asp-items="@ViewBag.ItemClass" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ItemClassID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="CartonSize" class="control-label col-lg-4">Bin No</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CartonSize" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="CartonSize" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ItemGroupCode"> Group Code</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ItemGroupCode" asp-items="@ViewBag.ItemClass" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ItemGroupCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="Origionid">Origin</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="Origionid" asp-items="@ViewBag.Origins" class="form-control" data-validation="required">
+                                                <option selected value="1">Test 1 </option>
+                                                <option value="2"> Test 2 </option>
+                                            </select>
+                                            <span asp-validation-for="Origionid" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                              
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ItemTypeID">Item Type</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ItemTypeID" asp-items="@ViewBag.ItemTypes" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ItemTypeID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="PackigSize" class="control-label col-lg-4"> Packig Size</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PackigSize" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="PackigSize" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ColorID"> Color </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ColorID" asp-items="@ViewBag.Colors" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ColorID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<div class="col-lg-4">
+            <div class="form-group">
+                <label class="col-lg-4 control-label" asp-for="DefaultSupplierID"> Default Sup </label>
+                <div class="col-lg-8">
+                    <select asp-for="DefaultSupplierID" asp-items="@ViewBag.Supplier" class="form-control" data-validation="required">
+                        <option selected="selected" disabled>Select...</option>
+                    </select>
+                    <span asp-validation-for="DefaultSupplierID" class="text-danger"></span>
+                </div>
+            </div>
+        </div>*@
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="UnitID"> Measuring Unit </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="UnitID" asp-items="@ViewBag.Units" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="UnitID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="PackedUnits" class="control-label col-lg-4">Packed Unit</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PackedUnits" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="PackedUnits" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BrandID">Default Supplier</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BrandID" asp-items="@ViewBag.Brands" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BrandID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="itemReOrderQty" class="control-label col-lg-4"> Re-Order Qty</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="itemReOrderQty" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="itemReOrderQty" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="GenericCode" class="control-label col-lg-4">Generic Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="GenericCode" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="GenericCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ManufacturerRetailPirce" class="control-label col-lg-4">MR Pirce</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ManufacturerRetailPirce" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ManufacturerRetailPirce" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="CartonSize" class="control-label col-lg-4">Carton Size</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CartonSize" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="CartonSize" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="LeadTime" class="control-label col-lg-4"> Lead Time</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="LeadTime" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="LeadTime" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ItemShadeCode" class="control-label col-lg-4"> Shade Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemShadeCode" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemShadeCode" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="TradePrice" class="control-label col-lg-4">Trade Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="TradePrice" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="TradePrice" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="RetailPrice" class="control-label col-lg-4">Retail Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="RetailPrice" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="RetailPrice" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="itemMinLevel" class="control-label col-lg-4"> Minimum Level</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="itemMinLevel" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="itemMinLevel" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="itemMaxLevel" class="control-label col-lg-4">  Max Level</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="itemMaxLevel" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="itemMaxLevel" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="PurchasePrice" class="control-label col-lg-4">Purchase Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PurchasePrice" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="PurchasePrice" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ManufacturerRetailPirce" class="control-label col-lg-4">Manufacturer Retail Pirce</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ManufacturerRetailPirce" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ManufacturerRetailPirce" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ItemLength" class="control-label col-lg-4">Item Length</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemLength" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemLength" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ItemWidth" class="control-label col-lg-4">Item Width</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemWidth" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemWidth" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label asp-for="ItemHeight" class="control-label col-lg-4"> Item Height</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ItemHeight" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="ItemHeight" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<div class="col-lg-3" hidden>
+                                    <div class="form-group">
+                                        <label asp-for="BlockID" class="control-label col-lg-4">Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="BlockID" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="BlockID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>*@
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="Block">Block</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="Block" asp-items="@ViewBag.Block" class="form-control" data-validation="required" >
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="Block" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="SizeID" class="control-label col-lg-4">Size</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="SizeID" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="SizeID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BrandID">Brand</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BrandID" asp-items="@ViewBag.Brands" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BrandID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PriceCategoryID">Price Category </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PriceCategoryID" asp-items="@ViewBag.PriceCategory" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PriceCategoryID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ItemCategoryID">Category </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ItemCategoryID" asp-items="@ViewBag.Category" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ItemCategoryID" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PackingTypeid"> Packings </label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PackingTypeid" asp-items="@ViewBag.Packings" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PackingTypeid" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MasterItem">Master Items</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MasterItem" asp-items="@ViewBag.MasterItems" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MasterItem" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="itemReOrderlevel" class="control-label col-lg-4">Re-Order level</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="itemReOrderlevel" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="itemReOrderlevel" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Remarks" class="control-label col-lg-4">Remarks</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Remarks" class="form-control" data-validation="required" />
+                                            <span asp-validation-for="Remarks" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 chiller_cb">
+                                    <div class="chiller_cb">
+                                        <input asp-for="ItemStatus" id="myCheckbox" type="checkbox" checked>
+                                        <label for="myCheckbox">Obselete/Blocked</label>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a  class="btn btn-white" href="/Inventory/Item/Index"  sp-controller="Item" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="Item" />
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script>
+        $.validate();
+               function checkCode() {
+           $("#Status").html("Checking...");
+        $.post("@Url.Action("checkProductCodeAlreadyExists", "Item", "Inventory")",
+            {
+                code: $("#Code").val()
+            },
+        function (data) {
+            if (data == 0) {
+                $("#Status").html('<font color="Green"></font>');
+                $("#Code").css("border-color", "Green");
+                $(".submit").removeAttr("disabled");
+            }
+            else {
+                $("#Status").html('<font color="Red">Product with same Code already exists.</font>');
+                $("#Code").css("border-color", "Red");
+                $(".submit").attr("disabled", "disabled");
+            }
+        });
+        }
+        
+    </script>
+}

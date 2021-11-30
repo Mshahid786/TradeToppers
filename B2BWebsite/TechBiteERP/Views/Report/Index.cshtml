@@ -1,0 +1,237 @@
+﻿@model TechBiteERP.Model.Models.GLAccount
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="~/css/datapicker/datepicker3.css" rel="stylesheet" />
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+
+                <h2 style="color:red;"> <label class="control-label">@TempData["ReportName"]</label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="reportForm" method="post" asp-action="Create" asp-controller="Report" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Report Name</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Reports" autofocus class="form-control" id="ReportTitle" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"id="dvAccountLevel">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label" -for="AccountLevel">Account Level</label>
+                                <div class="col-lg-8">
+                                    <select asp-for="AccountLevel" name="AccountLevel" id="AccountLevel" class="form-control">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-lg-6" id="dvAccountNote">
+                                <div class="form-group">
+                                    <label class="col-lg-4 control-label" -for="AccountNote">Account Note</label>
+                                    <div class="col-lg-8">
+                                        <select  for="AccountNote" name="AccountNote" id="AccountNote" asp-items="@ViewBag.AccountNote" class="form-control">
+                                            <option disabled="disabled" selected="selected">Select Report...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-md-6" id="dvCreatedDate">
+                                <label class="col-lg-4" style="padding-left: 52px;"> From </label>
+                                @*<label -for="Date" class=" control-label"> From </label>*@
+                                <div class="col-lg-8">
+                                    <div input-group">
+                                        <span class="input-group">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                        <input Asp-for="CreatedDate" id="CreatedDate" class="form-control" value="@DateTime.Now.ToString("dd/MMM/yyyy")" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6" id="dvUpdatedDate">
+                                <div class="form-group">
+                                    <label -for="Date" class="col-lg-5 control-label" style="padding-right: 82px;"> To</label>
+                                    <div class="col-lg-7">
+                                        <div input-group">
+                                            <span class="input-group">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                            <input Asp-for="UpdatedDate" id="UpdatedDate" class="form-control" value="@DateTime.Now.ToString("dd/MMM/yyyy")" type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" id="dvBranch">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Branch</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Branch" autofocus class="form-control" id="Branch" data-validation="required" name="Branch">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="dvCity">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">City</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.City" autofocus class="form-control" id="City" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" id="dvArea">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Area</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Area" autofocus class="form-control" id="Area" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="dvRegion">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Region</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Region" autofocus class="form-control" id="Region" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6" id="dvCustomer">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Customer</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Customer" autofocus class="form-control" id="Customer" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" id="dvSupplier">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">Supplier</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.Supplier" autofocus class="form-control" id="Supplier" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6" id="dvSalesMan">
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label">SalesMan</label>
+                                <div class="col-lg-8">
+                                    <select asp-items="@ViewBag.SalesMan" autofocus class="form-control" id="SalesMan" data-validation="required" name="ReportTitle">
+                                        <option disabled="disabled" selected="selected">Select Report...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-3">
+                                    @*<a class="btn btn-white" asp-action="Print" asp-controller="Report">Print</a>*@
+                                    <a class="btn btn-white" -action="Print" -controller="Report" onclick="generateReport();">Print</a>
+                                    @*<input type="submit" value="Create" class="btn btn-primary" />*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/js/NewFolder/ReportFilter.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var CountryId = $('#CountryId').val();
+            var ProvinceId = $('#ProvinceId').val();
+            var CityName = $('#CityName').val();
+            if (CountryId == null) {
+                swal("", "Please Select Country First", "error");
+                return false;
+            }
+            if (ProvinceId == null) {
+                swal("", "Please Select Province First", "error");
+                return false;
+            }
+            if (CityName == null) {
+                swal("", "Please Select City First", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script>
+        function generateReport() {
+            debugger;
+            $.post('/Report/Create',
+                $("#reportForm").serialize()).done(function (data) {
+
+                    var reportURL = data;
+                    window.open(reportURL, "_blank");
+                }).fail(function (data) {
+                });;
+        }
+    </script>
+
+}

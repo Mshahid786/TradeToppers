@@ -1,0 +1,71 @@
+﻿@model LoginViewModel
+
+
+@{
+    Layout = null;
+    ViewBag.Title = "Log In";
+}
+<br />
+<br />
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechBite | Login</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <style>
+        #checkBox {
+            margin-left: -148px;
+        }
+    </style>
+</head>
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <h3>Welcome to TechBite</h3>
+            <p>Login in. To see it in action.</p>
+
+            <form asp-action="Login" asp-controller="Account" method="post" class="form-horizontal" role="form">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+
+                    <input asp-for="UserName" class="form-control" data-validation="required" placeholder="User Name" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="Password" class="form-control" data-validation="required" placeholder="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary block full-width m-b" value="Log in" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="~/js/jquery-3.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+
+
+</body>
+
+</html>
+
+<script>
+    $.validate();
+</script>

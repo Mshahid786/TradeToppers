@@ -1,0 +1,72 @@
+﻿@model IEnumerable<JOURNALDT>
+@{
+    var count = 0;
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+}
+<link href="~/css/plugins/select2/select2.min.css" rel="stylesheet" />
+<style>
+    .fa.fa-trash-alt:hover {
+        color: red;
+    }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+<div class="table-responsive">
+ 
+    <h3 class="pull-left"><u> Voucher Detail: </u></h3>
+ 
+    <table id="invoiceTable" class="table table-striped table-bordered table-hover">
+        <thead style="background-color:lightsteelblue">
+            <tr>
+                <th>Sr.No</th>
+                <th>A/C No</th>
+                <th>Account Tittle</th>
+                <th>Particular</th>
+                <th class="text-right">Debit</th>
+                <th class="text-right">Credit</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+                <tr>
+                    <td>
+                        @count
+                    </td>
+                    <td class="text-left">
+                        @Html.DisplayFor(modelItem => item.ACFULLNO)
+                    </td>
+                    <td  class="text-left">
+                        @Html.DisplayFor(modelItem => item.ACNAME)
+                    </td >
+                    <td  class="text-left">
+                        @Html.DisplayFor(modelItem => item.JRPARTICULAR)
+                    </td>
+                    <td  class="text-right">
+                        @Html.DisplayFor(modelItem => item.JRDR)
+                    </td>
+                    <td  class="text-right">
+                        @Html.DisplayFor(modelItem => item.JRCR)
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

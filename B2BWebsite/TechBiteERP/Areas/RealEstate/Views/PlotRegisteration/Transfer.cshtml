@@ -1,0 +1,764 @@
+﻿@model TechBiteERP.Model.Models.PlotRegisterationForm
+
+
+@{
+    ViewData["Title"] = "Transfer";
+    ViewData["CurrentPage"] = "Transfer";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="~/css/datapicker/datepicker3.css" rel="stylesheet" />
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label">  Add Transfer </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="PlotRegisteration" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Plot Info</h2>
+                                <div class="row" hidden>
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="BlockId">Block</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="BlockId" asp-items="@ViewBag.Block" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="BlockId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotId">Plot</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotId" asp-items="@ViewBag.Items" onchange="getItemDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PlotId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label -for="Block" class="control-label col-lg-4">  Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Block" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label asp-for="Size" class="control-label col-lg-4">  Size/Marla</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Size" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="Dimensions" class="control-label col-lg-4">  Dimensions</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Dimensions" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="Factors" class="control-label col-lg-4">  Factors</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Factors" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="PlotPrice" class="control-label col-lg-4">  Plot Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PlotPrice" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h2>Customer Info</h2>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="CustomerId">Customer Name</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="CustomerId" asp-items="@ViewBag.Customers" onchange="getCustomerDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="CustomerId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="FatherName" class="control-label col-lg-4">  S/O W/O D/O</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="FatherName" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="CNIC" class="control-label col-lg-4">  CNIC</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CNIC" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="Email" class="control-label col-lg-4">  Email</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Email" class="form-control" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="MobileNo" class="control-label col-lg-4">  Mobile #</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="MobileNo" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="Address" class="control-label col-lg-4">  Address</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Address" class="form-control" />
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Profile Pictures</h2>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-2 col-sm-6 col-xs-6">
+                                        <!-- Below is the Div for picture of product -->
+                                        <h3><label>Customer Picture</label></h3>
+                                        <div class="col-md-12" style="margin-left: -22px;">
+                                            @if (Model.Photo != null)
+                                            {
+                                                //<img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" height="300" width="300" />
+                                                <img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" id="file" style=" width: 172px; height : 110px;" />
+                                            }
+                                            else if (Model.Photo == null)
+                                            {
+                                                //<img src="~/img/a1.jpg" name="" class="img-thumbnail" alt="Upload Image" height="250" width="250" />
+                                                <img src="" name="img[]" id="file" class="img-thumbnail " title="Upload Image" style=" width: 172px; height: 110px;" />
+                                            }
+                                            <div class="form-group">
+                                                <div class="text-left">
+                                                    <input asp-for="Photo" type="hidden" />
+                                                    <input name="img" type="file" id="upldImage" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-2 col-sm-6 col-xs-6">
+                                        <h3><label> </label></h3>
+                                        <div class="col-md-12" style="margin-left: -22px;">
+                                            @if (Model.Photo2 != null)
+                                            {
+                                                //<img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" height="300" width="300" />
+                                                <img src="@Html.DisplayFor(modelItem => Model.Photo2)" alt="Upload Image" class="img-thumbnail" id="file3" style=" width: 172px; height : 110px;" />
+                                            }
+                                            else if (Model.Photo2 == null)
+                                            {
+                                                //<img src="~/img/a1.jpg" name="" class="img-thumbnail" alt="Upload Image" height="250" width="250" />
+                                                <img src="" name="img3[]" id="file3" class="img-thumbnail " title="Upload Image" style=" width: 172px; height: 110px;" />
+                                            }
+                                            <div class="form-group">
+                                                <div class="text-left">
+                                                    <input asp-for="Photo2" type="hidden" />
+                                                    <input name="img3" type="file" id="upldImage3" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-2 col-sm-6 col-xs-6">
+                                        <!-- Below is the Div for picture of product -->
+                                        <h3><label>Nominee Picture</label></h3>
+                                        <div class="col-md-12" style="margin-left: -22px;">
+                                            @if (Model.NomineePhoto != null)
+                                            {
+                                                //<img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" height="300" width="300" />
+                                                <img src="@Html.DisplayFor(modelItem => Model.NomineePhoto)" alt="Upload Image" class="img-thumbnail" id="file2" style=" width: 172px; height : 110px;" />
+                                            }
+
+                                            else if (Model.NomineePhoto == null)
+                                            {
+                                                //<img src="~/img/a1.jpg" name="" class="img-thumbnail" alt="Upload Image" height="250" width="250" />
+                                                <img src="" name="Nomineeimg[]" id="file2" class="img-thumbnail " title="Upload Image" style=" width: 172px; height: 110px;" />
+                                            }
+                                            <div class="form-group">
+                                                <div class="text-left">
+                                                    <input asp-for="NomineePhoto" type="hidden" />
+                                                    <input name="Nomineeimg" type="file" id="upldNImage" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-2 col-sm-6 col-xs-6">
+                                        <h3><label></label></h3>
+                                        <div class="col-md-12" style="margin-left: -22px;">
+                                            @if (Model.NomineePhoto2 != null)
+                                            {
+                                                //<img src="@Html.DisplayFor(modelItem => Model.Photo)" alt="Upload Image" class="img-thumbnail" height="300" width="300" />
+                                                <img src="@Html.DisplayFor(modelItem => Model.NomineePhoto2)" alt="Upload Image" class="img-thumbnail" id="file4" style=" width: 172px; height : 110px;" />
+                                            }
+
+                                            else if (Model.NomineePhoto2 == null)
+                                            {
+                                                //<img src="~/img/a1.jpg" name="" class="img-thumbnail" alt="Upload Image" height="250" width="250" />
+                                                <img src="" name="Nomineeimg4[]" id="file4" class="img-thumbnail " title="Upload Image" style=" width: 172px; height: 110px;" />
+                                            }
+                                            <div class="form-group">
+                                                <div class="text-left">
+                                                    <input asp-for="NomineePhoto2" type="hidden" />
+                                                    <input name="Nomineeimg4" type="file" id="upldNImage4" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Nominee Info</h2>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="NomineeName" class="control-label col-lg-4">  Nominee Name</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="NomineeName" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label asp-for="NomineeFatherName" class="control-label col-lg-4"> S/O W/O D/O</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="NomineeFatherName" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-group">
+                                        <label asp-for="CNIC" class="control-label col-lg-4">  CNIC</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="CNIC" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label asp-for="Email" class="control-label col-lg-4">  Email</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Email" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label asp-for="NomineePhoneNo" class="control-label col-lg-4"> Phone No  </label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="NomineePhoneNo" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label asp-for="Address" class="control-label col-lg-4">  Address</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Address" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <h2>Registeration Info</h2>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="FormNo" class="control-label col-lg-4">  Form No</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="FormNo" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="DiscountAmount" class="control-label col-lg-4">  Discount Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="DiscountAmount" readonly class="form-control" onchange="calculateDisPer();" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="RegisterCharges" class="control-label col-lg-4">    %</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="RegisterCharges" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="DiscountPer" class="control-label col-lg-4">  Discount %</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="DiscountPer" readonly class="form-control" onchange="calculateDisAmount();" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="RegisterCharges" class="control-label col-lg-4">  Register Charges</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="RegisterCharges" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="Installments" class="control-label col-lg-4">  Installments</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Installments" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="DealPrice" class="control-label col-lg-4">  Deal Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="DealPrice" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="DealValidity">Deal Validity</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="DealValidity" asp-items="@ViewBag.DealValidity" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="DealValidity" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="DiscountFactor">Discount Factor</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="DiscountFactor" asp-items="@ViewBag.DiscountFactor" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="DiscountFactor" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="SalesPerson">Sale Person</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="SalesPerson" asp-items="@ViewBag.SalesPerson" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="SalesPerson" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="MMD">MMD</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="MMD" asp-items="@ViewBag.MMD" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="MMD" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="LoggedBy" class="control-label col-lg-4">  Logged By</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="LoggedBy" readonly class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="ibox-content">
+                        <h2>MMD Sales Info</h2>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-4">
+
+                                    <div class="form-group">
+                                        <label asp-for="MMDPercentage" class="control-label col-lg-4">  Percentage</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="MMDPercentage" readonly onchange="calculateMMDDisAmount();" class="form-control" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="MMDPercentageAmount" class="control-label col-lg-4">  Value</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="MMDPercentageAmount" readonly onchange="calculateMMDDisPer();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="WHTAmount" class="control-label col-lg-4"> W.H.T Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="WHTAmount" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label asp-for="NetPayable" class="control-label col-lg-4"> Net Payable</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="NetPayable" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/PlotRegisteration/Index" sp-controller="PlotRegisteration" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Transfer" asp-controller="PlotRegisteration" />
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+    <script src="~/js/Journal/Journal.js"></script>
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            var blockId = $('#BlockId').val();
+            var Block = $('#Block').val();
+            var CustomerId = $('#CustomerId').val();
+            var NomineeName = $('#NomineeName').val();
+            var DealValidity = $('#DealValidity').val();
+            var DiscountFactor = $('#DiscountFactor').val();
+            var MMD = $('#MMD').val();
+            var SalesPerson = $('#SalesPerson').val();
+            if (PlotId == "Select...") {
+                swal("", "Please Select Plot Field.", "error");
+                return false;
+
+            }
+            if (Block == "") {
+                swal("", "Please Select bloc.", "error");
+                return false;
+
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Plot First", "error");
+                return false;
+
+            }
+            if (Block == null) {
+                swal("", "Please Select block first", "error");
+                return false;
+
+            }
+            if (CustomerId == null) {
+                swal("", "Please Select Customer Name First", "error");
+                return false;
+
+            }
+            if (NomineeName == "") {
+                swal("", "Please Enter Nominee First", "error");
+                return false;
+
+            }
+            if (DealValidity == "") {
+                swal("", "Please Enter Deal Validity First", "error");
+                return false;
+
+            }
+            if (DiscountFactor == "") {
+                swal("", "Please Enter Discount Factor First", "error");
+                return false;
+
+            }
+            if (MMD == "") {
+                swal("", "Please Enter MMD First", "error");
+                return false;
+
+            }
+            if (SalesPerson == "") {
+                swal("", "Please Enter Sales Person First", "error");
+                return false;
+
+            }
+            return true;
+        }
+        function getItemDetail() {
+            var PlotId = $('#PlotId').val();
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#Block').val(data.blockID);
+                $('#Size').val(data.sizeID);
+                var dimensions = data.itemLength + "*" + data.itemWidth
+                $('#Dimensions').val(dimensions);
+                if (data.itemID != null) {
+                    $.ajax({
+                        url: '/RealEstate/Sale/getItemPrice?id=' + data.itemID,
+                        type: 'GET'
+                    }).done(function (data) {
+                        debugger;
+                        if (data != undefined)
+                            $('#PlotPrice').val(data.price);
+                        else
+                            $('#PlotPrice').val(0)
+
+                    });
+
+                }
+            });
+        }
+
+
+        function getCustomerDetail() {
+            var CustomerId = $('#CustomerId').val();
+            $.ajax({
+                url: '/RealEstate/PlotRegisteration/getCustomerDetail?id=' + CustomerId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#FName').val(data.name);
+                $('#CNIC').val(data.cnic);
+                $('#Email').val(data.email);
+                $('#MobileNo').val(data.mobileNo);
+                $('#Address').val(data.address);
+
+            });
+        }
+    </script>
+    <script>
+        function calculateDisAmount() {
+            debugger;
+            var price = Number($('#PlotPrice').val());
+            var DiscountAmount = Number($('#DiscountAmount').val());
+            var DiscountPer = Number($('#DiscountPer').val());
+
+            var total = (price / 100) * DiscountPer;
+            $('#DiscountAmount').val(total);
+        }
+        function calculateDisPer() {
+            debugger;
+            var price = Number($('#PlotPrice').val());
+            var DiscountAmount = Number($('#DiscountAmount').val());
+            var DiscountPer = Number($('#DiscountPer').val());
+            var total = (DiscountAmount / price) * 100;
+            $('#DiscountPer').val(total);
+        }
+    </script>
+    <script>
+        function calculateMMDDisAmount() {
+            debugger;
+            var price = Number($('#PlotPrice').val());
+            var DiscountAmount = Number($('#MMDPercentageAmount').val());
+            var DiscountPer = Number($('#MMDPercentage').val());
+
+            var total = (price / 100) * DiscountPer;
+            $('#MMDPercentageAmount').val(total);
+        }
+        function calculateMMDDisPer() {
+            debugger;
+            var price = Number($('#PlotPrice').val());
+            var DiscountAmount = Number($('#MMDPercentageAmount').val());
+            var DiscountPer = Number($('#MMDPercentage').val());
+            var total = (DiscountAmount / price) * 100;
+            $('#MMDPercentage').val(total);
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $(".custom-file-input").on("change", function () {
+                var filename = $(this).val().split("\\").pop();
+                $(this).next(".custom-file-lablel").html(filename);
+            });
+            $("#download").click(function (link) {
+                link.target.href = $cropped.cropper('getCroppedCanvas', { width: 620, height: 520 }).toDataURL("image/PNG").replace("image/PNG", "application/octet-stream");
+                link.target.download = 'cropped.png';
+            });
+        });
+    </script>
+    <script>
+        $(document).on("click", ".browse", function () {
+
+            var file = $(this).parents().find(".file");
+            file.trigger("click");
+        });
+        $(document).on("click", ".browse", function () {
+
+            var file = $(this).parents().find(".file3");
+            file.trigger("click");
+        });
+        $(document).on("click", ".browse", function () {
+
+            var file = $(this).parents().find(".file2");
+            file.trigger("click");
+        });
+        $(document).on("click", ".browse", function () {
+
+            var file = $(this).parents().find(".file4");
+            file.trigger("click");
+        });
+        $('input[type="file"]').change(function (e) {
+
+            var fileName = e.target.files[0].name;
+            var id = e.target.id;
+
+
+            var reader = new FileReader();
+            if (id == "upldNImage") {
+                debugger;
+                reader.onload = function (e) {
+                    document.getElementById("file2").src = e.target.result;
+                };
+            }
+            else if (id == "upldNImage4") {
+                debugger;
+                reader.onload = function (e) {
+                    document.getElementById("file4").src = e.target.result;
+                };
+            }
+            else if (id == "upldImage3") {
+                debugger;
+                reader.onload = function (e) {
+                    document.getElementById("file3").src = e.target.result;
+                };
+            }
+            else {
+                debugger;
+                reader.onload = function (e) {
+                    document.getElementById("file").src = e.target.result;
+                };
+            }
+            // read the image file as a data URL.
+            reader.readAsDataURL(this.files[0]);
+        });
+    </script>
+
+}

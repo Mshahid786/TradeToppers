@@ -1,0 +1,1051 @@
+﻿<!DOCTYPE html>
+@using Microsoft.AspNetCore.Http;
+
+@inject IHttpContextAccessor HttpContextAccessor
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Dashboard v.4</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Morris -->
+    <link href="~/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    @*<link href="~/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="~/fontawesome-pro/css/all.css" rel="stylesheet">*@
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/animate.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+    <link href="~/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+    <link href="~/css/plugins/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="~/css/plugins/select2/select2.min.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/plugins/chosen/bootstrap-chosen.css" rel="stylesheet" />
+    <link href="~/css/plugins/chosen/bootstrap-chosen.css" rel="stylesheet" />
+    <link href="~/css/plugins/datapicker/datepicker3.css" rel="stylesheet" />
+    <link href="~/css/plugins/dataTables/datatables.min.css" rel="stylesheet" />
+
+    @RenderSection("customCSS", required: false)
+</head>
+<body class="pace-done">
+    <div class="pace pace-inactive __web-inspector-hide-shortcut__">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <span>
+                                <img alt="image" class="img-circle" src="~/img/profile_small.jpg" />
+                            </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="block m-t-xs">
+                                        <strong class="font-bold">@HttpContextAccessor.HttpContext.Session.GetString("UserName")</strong>
+                                    </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="mailbox.html">Mailbox</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/Account/LogOut">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            IN+
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Admin</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Admin Finance<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/HummanResources/Currency/Create">Currency Definition</a></li>
+                                    <li><a href="~/HummanResources/Country/Create">Countries Definition </a></li>
+                                    <li><a href="~/HummanResources/Province/Create">Province Definition</a></li>
+                                    <li><a href="~/HummanResources/Region/Create">Region Definition</a></li>
+                                    <li><a href="~/HummanResources/District/Create">District Definition</a></li>
+                                    <li><a href="~/HummanResources/City/Create">City Definition</a></li>
+                                    <li><a href="~/HummanResources/Area/Create">Area Definition</a></li>
+                                    <li><a href="~/HummanResources/Employee/Create">Employee Definition</a></li>
+                                    <li><a href="~/HummanResources/Branch/Create">Branch Definition</a></li>
+                                    <li><a href="~/HummanResources/BranchType/Create">Branch Type Definition</a></li>
+                                    <li><a href="~/HummanResources/ChartOfAccount/Index">Chart Of Account</a></li>
+                                    <li><a href="~/HummanResources/VoucherType/Create">Voucher Type Definition</a></li>
+                                    <li><a href="dashboard_2.html">Cost Center Definition</a></li>
+                                    <li><a href="dashboard_2.html">Opening Balance </a></li>
+                                    <li><a href="~/GeneralLedger/Journal/Index">Voucher Posting </a></li>
+                                    <li><a href="dashboard_2.html">Auto Year Closing </a></li>
+                                    <li><a href="~/HummanResources/BasicSetting/Create">Account Integrations & Voucher Settings</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Admin Inventory / Stores<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/HumanResource/UOM/Create">Measuring Unit Definition</a></li>
+                                    <li><a href="~/HumanResource/ItemClass/Create">Item Class Definition</a></li>
+                                    <li><a href="~/HumanResource/PriceCategory/Create">Price Category Definition</a></li>
+                                    <li><a href="~/HumanResource/ItemType/Create">Item Type Definition</a></li>
+                                    <li><a href="~/HumanResource/Category/Create">Item Category Definition</a></li>
+                                    <li><a href="~/HumanResource/Packing/Create">Product Packings Definition</a></li>
+                                    <li><a href="~/HumanResource/MasterItem/Create">Master Item Definition</a></li>
+                                    <li><a href="~/HumanResource/Color/Create">Color Definition</a></li>
+                                    <li><a href="~/HumanResource/Brand/Create">Brand Definition</a></li>
+                                    <li><a href="~/Inventory/Item/Create">Item Definition</a></li>
+                                    <li><a href="~/RealEstate/PlotStatus/Create">Plot Status Definition</a></li>
+                                    <li><a href="index.html">Product Profiler</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Admin Accounts<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/HumanResource/PaymentType/Create">Payment Term Definition</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Admin Purchases<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/AccountPayable/Supplier/Create">Supplier Definition</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Admin Sales<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Mode Of Delivery Definition</a></li>
+                                    <li><a href="dashboard_2.html">Designation Definition </a></li>
+                                    <li><a href="~/AccountReceivable/Salesman/Create">Sales Person Definition</a></li>
+                                    <li><a href="~/HumanResource/Area/Create">Area Definition</a></li>
+                                    <li><a href="dashboard_2.html">Customer Definition</a></li>
+                                    <li><a href="dashboard_2.html">Price List</a></li>
+                                    <li><a href="index.html">Update Price</a></li>
+                                    <li><a href="index.html">Discount Rates</a></li>
+                                    <li><a href="index.html">Sales Type</a></li>
+                                    <li><a href="index.html">Sales Return Reasons</a></li>
+                                    <li><a href="index.html">Transportation Defination</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">Sms</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Finance/Account Inventory</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Vouchers<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/GeneralLedger/Journal/Create?type=JV">Journal Vouchers [JV]</a></li>
+                                    <li><a href="~/GeneralLedger/Journal/Create?type=BPV">Bank Payment Voucher[BPV]</a></li>
+                                    <li><a href="~/GeneralLedger/Journal/Create?type=BRV">Bank Receipt Voucher[BRV]</a></li>
+                                    <li><a href="~/GeneralLedger/Journal/Create?type=CPV">Cash Payment Voucher[CPV]</a></li>
+                                    <li><a href="~/GeneralLedger/Journal/Create?type=CRV">Cash Receipt Voucher[CRV]</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Cheque Management<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Bank Definition</a></li>
+                                    <li><a href="dashboard_2.html">Cheque Book Definition </a></li>
+                                    <li><a href="index.html">Cheque Book Record Keeping</a></li>
+                                    <li><a href="dashboard_2.html">Cheque Replacement/Cancellation</a></li>
+                                    <li><a href="dashboard_2.html">Cheque Wise Status Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">Bank Reconcilation</a></li>
+                            <li><a href="index.html">Financial Budgeting</a></li>
+                            <li>
+                                <a href="#">Fixed Assets Register<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Place Of Fixation</a></li>
+                                    <li><a href="dashboard_2.html">FAR Parent Categories</a></li>
+                                    <li><a href="index.html">FAR Child Categories</a></li>
+                                    <li><a href="dashboard_2.html">Item Catagory Definition</a></li>
+                                    <li><a href="~/GeneralLedger/BalanceOpening/Create">Fixed Assets Register (FAR) Opening Balance</a></li>
+                                    <li><a href="index.html">Allocation Of Assets to Users Individually</a></li>
+                                    <li><a href="index.html">Transfer Of Assets / Change Users</a></li>
+                                    <li><a href="index.html">Fixed Assets Auto Depreciation Calculator</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Cheque Realization<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Realization/Status Of Cheques</a></li>
+                                    <li><a href="index.html">Realization Of Cheques Adjustment</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Invoice Base Collection<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Opening Balance Invoice Wise</a></li>
+                                    <li><a href="dashboard_2.html">Cash Receipts [Cash] </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Purchase</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="index.html">Purchase Approval</a></li>
+                            <li><a href="index.html">Purchase Order[PO]</a></li>
+                            <li>
+                                <a href="#">Imports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">ITP Value Definition</a></li>
+                                    <li><a href="dashboard_2.html">Types of LC </a></li>
+                                    <li><a href="index.html">LC Charges Definition</a></li>
+                                    <li><a href="dashboard_2.html">LC Establishment</a></li>
+                                    <li><a href="dashboard_2.html">LC Amendment</a></li>
+                                    <li><a href="dashboard_2.html">Commercial Invoice</a></li>
+                                    <li><a href="dashboard_2.html">LC-In-Bound/Ex-Bound</a></li>
+                                    <li><a href="dashboard_2.html">Bill Of Entry</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Production</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="index.html">Production Stage Entry</a></li>
+                            <li><a href="index.html">Product Quality</a></li>
+                            <li><a href="index.html">Yield Entry</a></li>
+                            <li><a href="index.html">Packing Plan</a></li>
+                            <li><a href="index.html">Product Packing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Finished Store</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="index.html">Production Plan</a></li>
+                            <li><a href="index.html">Finished Goods receiving</a></li>
+                            <li><a href="index.html">Finished Goods QA</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Sales</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="index.html">Sales Person Target</a></li>
+                            <li><a href="index.html">Customer Sale Target</a></li>
+                            <li><a href="index.html">Quotation Entry</a></li>
+                            <li><a href="index.html">Sales Order Booking</a></li>
+                            <li><a href="index.html">Sales Order Approval</a></li>
+                            <li><a href="index.html">Order Processing</a></li>
+                            <li><a href="index.html">Order Shipment</a></li>
+                            <li><a href="index.html">Sales Invoice</a></li>
+                            <li><a href="index.html">Sales Return</a></li>
+                            <li><a href="~/RealEstate/Sale/Create">Sale Plot</a></li>
+                            <li><a href="index.html">Free Items Issue Note</a></li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Real Estate</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Definations<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/HummanResources/Branch/Create">Branch Definition</a></li>
+                                    <li><a href="~/HumanResource/Block/Create">Block</a></li>
+                                    <li><a href="~/HumanResource/ActionType/Create">Action Type</a></li>
+                                    <li><a href="~/HumanResource/PlotStatus/Create">Plot Status</a></li>
+                                    <li><a href="~/HumanResource/PlotFile/Create">Plot File</a></li>
+                                    <li><a href="~/HumanResource/DealValidity/Create">Deal Validity</a></li>
+                                    <li><a href="~/HumanResource/PriceList/Create">Price List</a></li>
+                                    <li><a href="~/HumanResource/PriceCategory/Create">Price Category</a></li>
+                                    <li><a href="~/HumanResource/DeliveredVia/Create">Delivered Via</a></li>
+                                    <li><a href="~/HumanResource/PaymentType/Create">Payment Type</a></li>
+                                    <li><a href="~/HumanResource/PayType/Create">Pay Type</a></li>
+                                    <li><a href="~/HumanResource/ItemClass/Create">Item Class Definition</a></li>
+                                    <li><a href="~/HumanResource/PaymentPlan/Create">Payment Plan</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">Transactions<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/RealEstate/PlotFile/Create">Plot File</a></li>
+                                    <li><a href="~/RealEstate/Sale/Create">Plot Sale</a></li>
+                                    <li><a href="~/RealEstate/PriceCategory/Create">Price Category Definition</a></li>
+                                    <li><a href="~/RealEstate/ItemType/Create">Item Type Definition</a></li>
+                                    <li><a href="~/RealEstate/PlotRegisteration/Create">Plot Registration</a></li>
+                                    <li><a href="~/RealEstate/PlotRegisteration/Index?status=Transfer">Plot Transfer</a></li>
+                                    <li><a href="~/RealEstate/PlotRecovery/Create">Plot Recovery</a></li>
+                                    <li><a href="~/RealEstate/PlotCancellation/Create">Plot Cancellation</a></li>
+                                    <li><a href="~/RealEstate/PaymentPlan/Create">Payment Plan</a></li>
+                                    <li><a href="~/RealEstate/PaymentHistory/Create">Payment History</a></li>
+
+                                    <li><a href="~/PlotDashboard/Index">Plot Dashboard</a></li>
+                                    @*<li><a href="~/HumanResource/PaymentHistory/Create">Total Plots</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Available</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Reserved</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Registered</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Booking</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Confirmed</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Installment</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Possession</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Allotment</a></li>
+                                        <li><a href="~/HumanResource/PaymentHistory/Create">Sold</a></li>*@
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">Reports</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="~/Report/Index">Financial Accounting System Reports</a>
+                            </li>
+                            <li>
+                                <a href="~/Report/Ledger">Financial Accounting System Reports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Chart Of Account</a></li>
+                                    <li><a href="dashboard_2.html">Payable Summary</a></li>
+                                    <li><a href="index.html">Receivable Summary</a></li>
+                                    <li><a href="dashboard_2.html">Vouchers Reports</a></li>
+                                    <li><a href="dashboard_2.html">General Ledger</a></li>
+                                    <li><a href="dashboard_2.html">Monthly Trial Balance</a></li>
+                                    <li><a href="dashboard_2.html">Trial Balance</a></li>
+                                    <li><a href="dashboard_2.html">Notes Of the Accounts</a></li>
+                                    <li><a href="dashboard_2.html">Balance Sheet</a></li>
+                                    <li><a href="dashboard_2.html">Profit Loss Account</a></li>
+                                    <li><a href="dashboard_2.html">Daily Profit Loss Statement</a></li>
+                                    <li><a href="dashboard_2.html">Audit Trial Reports</a></li>
+                                    <li><a href="dashboard_2.html">Recovery Sheet A</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Inventory / Stores Reports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Material Management Reports[MMR]</a></li>
+                                    <li><a href="dashboard_2.html">Stock Management Reports[SMR] </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Purchasing Reports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Purchase Order Reports</a></li>
+                                    <li><a href="dashboard_2.html">Units Of Receipts Against PO </a></li>
+                                    <li><a href="index.html">Outstanding Purchase Orders Report</a></li>
+                                    <li><a href="dashboard_2.html">Cancelled Purchase Orders Report</a></li>
+                                    <li><a href="dashboard_2.html">Payable Aging</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sales Reports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Sales Order [Pending]</a></li>
+                                    <li><a href="dashboard_2.html">Customer List </a></li>
+                                    <li><a href="index.html">Sales Summary</a></li>
+                                    <li><a href="dashboard_2.html">Sales Report [Detail]</a></li>
+                                    <li><a href="dashboard_2.html">Sales Report</a></li>
+                                    <li><a href="dashboard_2.html">Product Wise Sales Report</a></li>
+                                    <li><a href="dashboard_2.html">Customer Wise Sales Report</a></li>
+                                    <li><a href="dashboard_2.html">Sales Return</a></li>
+                                    <li><a href="dashboard_2.html">Daily Sales Summary Report</a></li>
+                                    <li><a href="dashboard_2.html">Yearly Sales Report</a></li>
+                                    <li><a href="dashboard_2.html">Product wise Sales Report</a></li>
+                                    <li><a href="dashboard_2.html">Invoice Wise Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Salesman Wise Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Daily Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Brand Wise Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Brand Wise Comparison Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Most Sale Product Report</a></li>
+                                    <li><a href="dashboard_2.html">Most Sale Product Comparison Report</a></li>
+                                    <li><a href="dashboard_2.html">Most Slow Moving Product Report</a></li>
+                                    <li><a href="dashboard_2.html">Most Slow Moving Product Comparison Report</a></li>
+                                    <li><a href="dashboard_2.html">Dealer's Sale Wise Collection Comparison</a></li>
+                                    <li><a href="dashboard_2.html">Current Aging Report</a></li>
+                                    <li><a href="dashboard_2.html">Sale Comparison </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Invoice Based Sale Reports<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="index.html">Sale Report</a></li>
+                                    <li><a href="dashboard_2.html">Customer Ledger </a></li>
+                                    <li><a href="index.html">Customer Ledger With Aging</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> Utilities / Tools <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            <li><a href="~/Account/Register">Register</a></li>
+                            <li><a href="~/Account/ChangePassword">Change Password</a></li>
+                            <li><a href="~/Account/LogOut">Re-Login </a></li>
+                            <li><a href="~/GeneralLedger/FinYear/Create">Change Working Year</a></li>
+                            <li><a href="dashboard_2.html">Financial fixed</a></li>
+                            <li><a href="dashboard_2.html">Server Setup</a></li>
+                            <li><a href="~/Account/Index">Logon User List</a></li>
+                            <li><a href="dashboard_2.html">Item / Product Tracking Utility</a></li>
+                            <li><a href="~/GeneralLedger/ProductBalanceOpening/File">Item / Product Opening Balance Import</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">User Management</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">User Rights Management<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li><a href="~/Account/RoleIndex">All Roles</a></li>
+                                    <li><a href="~/Account/CreateRole">Create Role</a></li>
+                                    <li><a href="~/Account/RoleIndex">Bind Role</a></li>
+                                </ul>
+                            </li>
+
+                            @*<li>
+                                    <a href="#">Transactions<span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li><a href="~/PlotDashboard/Index">Plot Dashboard</a></li>
+                                    </ul>
+                                </li>*@
+                        </ul>
+                    </li>
+
+                    <li class="landing_link">
+                        <a target="_blank" href="landing.html"><i class="fa fa-star"></i> <span class="nav-label">Landing Page</span> <span class="label label-warning pull-right">NEW</span></a>
+                    </li>
+                    <li class="special_link">
+                        <a href="package.html"><i class="fa fa-database"></i> <span class="nav-label">Package</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                        <form role="search" class="navbar-form-custom" action="search_results.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                            </div>
+                        </form>
+                    </div>
+
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <a style="color: #ff977f" href="~/BranchDashboard/Index">Change Branch</a>
+                        </li>
+                        <li>
+                            <span class="m-r-sm text-muted welcome-message text-secondary"> Welcome to  @HttpContextAccessor.HttpContext.Session.GetString("CompanyName")</span>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                <i class="fa fa-envelope"></i>  <span class="label label-warning">16</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-messages">
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="~/img/a7.jpg">
+                                        </a>
+                                        <div>
+                                            <small class="pull-right">46h ago</small>
+                                            <strong>Mike Loreipsum</strong> started following <strong>Monica Smith</strong>. <br>
+                                            <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="~/img/a4.jpg">
+                                        </a>
+                                        <div>
+                                            <small class="pull-right text-navy">5h ago</small>
+                                            <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica Smith</strong>. <br>
+                                            <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="~/img/profile.jpg">
+                                        </a>
+                                        <div>
+                                            <small class="pull-right">23h ago</small>
+                                            <strong>Monica Smith</strong> love <strong>Kim Smith</strong>. <br>
+                                            <small class="text-muted">2 days ago at 2:30 am - 11.06.2014</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="mailbox.html">
+                                            <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-alerts">
+                                <li>
+                                    <a href="mailbox.html">
+                                        <div>
+                                            <i class="fa fa-envelope fa-fw"></i> You have 16 messages
+                                            <span class="pull-right text-muted small">4 minutes ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="profile.html">
+                                        <div>
+                                            <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                            <span class="pull-right text-muted small">12 minutes ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="grid_options.html">
+                                        <div>
+                                            <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                            <span class="pull-right text-muted small">4 minutes ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="notifications.html">
+                                            <strong>See All Alerts</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="/Account/LogOut">
+                                <i class="fa fa-sign-out"></i> Log out
+                            </a>
+                        </li>
+                        <li>
+                            <a class="right-sidebar-toggle">
+                                <i class="fa fa-tasks"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="col-lg-12">
+                                <img class="pull-right" src="@HttpContextAccessor.HttpContext.Session.GetString("BranchPhoto")" style="height: 44px;margin-bottom: -10%;" />
+                            </div>
+                        </li>
+                         
+                    </ul>
+
+                </nav>
+
+            </div>
+            <div class="wrapper wrapper-content">
+                <div class="row">
+                    @RenderBody()
+                </div>
+            </div>
+
+            <footer class="border-top footer text-muted">
+                <div class="text-center">
+                    &copy; 2021 - Trade Toppers - <a asp-area="" asp-page="/Privacy">Privacy</a>
+                </div>
+            </footer>
+        </div>
+        @*<div id="right-sidebar" class="sidebar-open">*@
+        <div id="right-sidebar" class="sidebar-collapse">
+            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
+                <div class="sidebar-container" style="overflow: hidden; width: auto; height: 100%;">
+
+                    <ul class="nav nav-tabs navs-3">
+
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab-1">
+                                Notes
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#tab-2">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="">
+                            <a data-toggle="tab" href="#tab-3">
+                                <i class="fa fa-gear"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+
+
+                        <div id="tab-1" class="tab-pane active">
+
+                            <div class="sidebar-title">
+                                <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
+                                <small><i class="fa fa-tim"></i> You have 10 new message.</small>
+                            </div>
+
+                            <div>
+
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a1.jpg">
+
+                                            <div class="m-t-xs">
+                                                <i class="fa fa-star text-warning"></i>
+                                                <i class="fa fa-star text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+
+                                            There are many variations of passages of Lorem Ipsum available.
+                                            <br>
+                                            <small class="text-muted">Today 4:21 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a2.jpg">
+                                        </div>
+                                        <div class="media-body">
+                                            The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                            <br>
+                                            <small class="text-muted">Yesterday 2:45 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a3.jpg">
+
+                                            <div class="m-t-xs">
+                                                <i class="fa fa-star text-warning"></i>
+                                                <i class="fa fa-star text-warning"></i>
+                                                <i class="fa fa-star text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            Mevolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                            <br>
+                                            <small class="text-muted">Yesterday 1:10 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a4.jpg">
+                                        </div>
+
+                                        <div class="media-body">
+                                            Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+                                            <br>
+                                            <small class="text-muted">Monday 8:37 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a8.jpg">
+                                        </div>
+                                        <div class="media-body">
+
+                                            All the Lorem Ipsum generators on the Internet tend to repeat.
+                                            <br>
+                                            <small class="text-muted">Today 4:21 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a7.jpg">
+                                        </div>
+                                        <div class="media-body">
+                                            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                            <br>
+                                            <small class="text-muted">Yesterday 2:45 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a3.jpg">
+
+                                            <div class="m-t-xs">
+                                                <i class="fa fa-star text-warning"></i>
+                                                <i class="fa fa-star text-warning"></i>
+                                                <i class="fa fa-star text-warning"></i>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below.
+                                            <br>
+                                            <small class="text-muted">Yesterday 1:10 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sidebar-message">
+                                    <a href="#">
+                                        <div class="pull-left text-center">
+                                            <img alt="image" class="img-circle message-avatar" src="~/img/a4.jpg">
+                                        </div>
+                                        <div class="media-body">
+                                            Uncover many web sites still in their infancy. Various versions have.
+                                            <br>
+                                            <small class="text-muted">Monday 8:37 pm</small>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="tab-2" class="tab-pane">
+
+                            <div class="sidebar-title">
+                                <h3> <i class="fa fa-cube"></i> Latest projects</h3>
+                                <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                            </div>
+
+                            <ul class="sidebar-list">
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Business valuation</h4>
+                                        It is a long established fact that a reader will be distracted.
+
+                                        <div class="small">Completion with: 22%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                        </div>
+                                        <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Contract with Company </h4>
+                                        Many desktop publishing packages and web page editors.
+
+                                        <div class="small">Completion with: 48%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 48%;" class="progress-bar"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Meeting</h4>
+                                        By the readable content of a page when looking at its layout.
+
+                                        <div class="small">Completion with: 14%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-primary pull-right">NEW</span>
+                                        <h4>The generated</h4>
+                                        <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                        There are many variations of passages of Lorem Ipsum available.
+                                        <div class="small">Completion with: 22%</div>
+                                        <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Business valuation</h4>
+                                        It is a long established fact that a reader will be distracted.
+
+                                        <div class="small">Completion with: 22%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 22%;" class="progress-bar progress-bar-warning"></div>
+                                        </div>
+                                        <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Contract with Company </h4>
+                                        Many desktop publishing packages and web page editors.
+
+                                        <div class="small">Completion with: 48%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 48%;" class="progress-bar"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="small pull-right m-t-xs">9 hours ago</div>
+                                        <h4>Meeting</h4>
+                                        By the readable content of a page when looking at its layout.
+
+                                        <div class="small">Completion with: 14%</div>
+                                        <div class="progress progress-mini">
+                                            <div style="width: 14%;" class="progress-bar progress-bar-info"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-primary pull-right">NEW</span>
+                                        <h4>The generated</h4>
+                                        <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                        There are many variations of passages of Lorem Ipsum available.
+                                        <div class="small">Completion with: 22%</div>
+                                        <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div id="tab-3" class="tab-pane">
+
+                            <div class="sidebar-title">
+                                <h3><i class="fa fa-gears"></i> Settings</h3>
+                                <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
+                            </div>
+
+                            <div class="setings-item">
+                                <span>
+                                    Show notifications
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                        <label class="onoffswitch-label" for="example">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Disable Chat
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example2">
+                                        <label class="onoffswitch-label" for="example2">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Enable history
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
+                                        <label class="onoffswitch-label" for="example3">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Show charts
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
+                                        <label class="onoffswitch-label" for="example4">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Offline users
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked="" name="collapsemenu" class="onoffswitch-checkbox" id="example5">
+                                        <label class="onoffswitch-label" for="example5">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Global search
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" checked="" name="collapsemenu" class="onoffswitch-checkbox" id="example6">
+                                        <label class="onoffswitch-label" for="example6">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="setings-item">
+                                <span>
+                                    Update everyday
+                                </span>
+                                <div class="switch">
+                                    <div class="onoffswitch">
+                                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
+                                        <label class="onoffswitch-label" for="example7">
+                                            <span class="onoffswitch-inner"></span>
+                                            <span class="onoffswitch-switch"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-content">
+                                <h4>Settings</h4>
+                                <div class="small">
+                                    I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 223.301px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.4; z-index: 90; right: 1px;"></div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Mainly scripts -->
+
+    <script src="~/js/jquery-3.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Flot -->
+    <script src="~/js/plugins/flot/jquery.flot.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="~/js/plugins/flot/jquery.flot.symbol.js"></script>
+    <script src="~/js/plugins/flot/curvedLines.js"></script>
+    <script src="~/lib/dataTables/datatables.min.js"></script>
+    <!-- Peity -->
+    <script src="~/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="~/js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="~/js/inspinia.js"></script>
+    <script src="~/js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="~/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- Jvectormap -->
+    <script src="~/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="~/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+    <!-- Sparkline -->
+    <script src="~/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="~/js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="~/js/plugins/chartJs/Chart.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>*@
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    @RenderSection("customJS", required: false)
+    @RenderSection("Scripts", required: false)
+
+    <script>
+        $('.dataTable_Responsive').DataTable({
+            pageLength: 90,
+            responsive: true,
+            dom: '<"html5buttons"B>lTfgitp',
+            order: [0, "asc"],
+            buttons: [
+                { extend: 'pdf', title: 'ExampleFile' },
+                { extend: 'excel', title: 'ExampleFile' },
+                {
+                    extend: 'print',
+                    customize: function (win) {
+                        $(win.document.body).addClass('white-bg');
+                        $(win.document.body).css('font-size', '10px');
+
+                        $(win.document.body).find('table')
+                            .addClass('compact')
+                            .css('font-size', 'inherit');
+                    }
+                }
+            ]
+
+        });
+
+    </script>
+
+</body>
+</html>

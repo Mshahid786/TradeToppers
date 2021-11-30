@@ -1,0 +1,171 @@
+﻿@model TechBiteERP.Model.Models.RegisterationForms
+
+
+@{
+    ViewData["Title"] = "Registeration Forms";
+    ViewData["CurrentPage"] = "Registeration Forms";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                
+                <h2 style="color:red;"> <label class="control-label">  Add New Payment History </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="RegisterationForm" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="FormCode" class="control-label col-lg-4">Form Code</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="FormCode" placeholder="Start 3 Digits Only" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <label asp-for="FormNoStart" class="control-label col-lg-4">Form No:</label>
+                                            <div class="col-lg-8">
+                                                <input asp-for="FormNoStart" placeholder="Start Range" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <div class="col-lg-12">
+                                                <input asp-for="FormNoEnd" placeholder="End Range" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Active" class="control-label col-lg-4"> Active Registeration</label>
+                                        <div class="col-lg-8">
+                                            <input name="Active" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-5">
+                                        <div class="form-group">
+                                            <label asp-for="Status" class="control-label col-lg-6"> </label>
+                                            <div class="col-lg-6 chiller_cb">
+                                                <input asp-for="Status" type="checkbox" readonly class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="form-group">
+                                            <label class="col-lg-4 control-label" asp-for="BranchId">Server</label>
+                                            <div class="col-lg-8">
+                                                <select asp-for="BranchId" asp-items="@ViewBag.Branches" class="form-control" data-validation="required">
+                                                    <option selected="selected" disabled>Select...</option>
+                                                </select>
+                                                <span asp-validation-for="BranchId" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/RegisterationForm/Index" sp-controller="PaymentHistory" sp-action="Index">List</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="RegisterationForm" />
+                                @if (Model.Id != 0)
+                                {
+                                <a class="btn btn-primary" href="~/Report/PrintBaseReport?id=@Model.Id&&reportName=PaymentHistory">Print</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script>
+        function checkValidation() {
+            debugger;
+            var FormCode = $('#FormCode').val();
+            var FormNoStart = $('#FormNoStart').val();
+            var FormNoEnd = $('#FormNoEnd').val();
+            var BranchId = $('#BranchId').val();
+ 
+            if (FormCode == null) {
+                swal("", "Please Select Form Code First", "error");
+                return false;
+            }
+    
+            if (FormNoStart == null) {
+                swal("", "Please Select Form No Start First", "error");
+                return false;
+            }
+            if (FormNoEnd == null) {
+                swal("", "Please Select Form No End First", "error");
+                return false;
+            }
+            if (BranchId == null) {
+                swal("", "Please Enter Server First", "error");
+                return false;
+            }
+           
+            return true;
+        }
+
+        function getItemDetail() {
+            var PlotId = $('#PlotId').val();
+
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#Block').val(data.blockID);
+            });
+
+            var customerCNIC = $('#PlotId').val();
+            var blockId = $('#BlockId').val();
+            $.ajax({
+                url: '/RealEstate/PaymentHistory/getRegisterationDetail?PlotId=' + PlotId ,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                if (data != undefined) {
+                    $('#CustomerName').val(data.customerName);
+                    $('#CustomerCNIC').val(data.cnic);
+                    $('#DealAmount').val(data.plotPrice);
+                  //  $('#Block').val(data.block);
+                }
+                //if (data.itemID != null) {
+                //    $.ajax({
+                //        url: '/RealEstate/Sale/getItemPrice?id=' + data.itemID,
+                //        type: 'GET'
+                //    }).done(function (data) {
+                //        debugger;
+                //        if (data != undefined)
+                //            $('#Price').val(data.price);
+                //        else
+                //            $('#Price').val(0)
+                        
+                //    });
+                //}
+            });
+        }
+    </script>
+}

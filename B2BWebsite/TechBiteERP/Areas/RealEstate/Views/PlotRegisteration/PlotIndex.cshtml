@@ -1,0 +1,125 @@
+﻿@model IEnumerable<TechBiteERP.Model.ViewModels.PlotRegisterationViewModel>
+
+@{
+    ViewData["Title"] = "Plot Registeration";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2 style="color:red;"> <label class="control-label">  @ViewBag.PageHeading Plots</label></h2>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of @ViewBag.PageHeading Plots</h5>
+                 
+            </div>
+            <div class="ibox-content">
+                <p>
+                    <a asp-action="Create">Create New</a>
+                </p>
+                <br /><br />
+
+                <table class="table table-bordered table-striped dataTables-test dataTable_Responsive">
+                    <thead>
+                        <tr>
+                            <th hidden>
+                                Id
+                            </th>
+                            <th>
+                                Block
+                            </th>
+                            <th>
+                                Plot
+                            </th>
+                            <th>
+                                Plot Status
+                            </th>
+                            <th>
+                                Customer Name
+                            </th>
+                            <th>
+                                CNIC
+                            </th>
+                            <th>
+                                Mobile No
+                            </th>
+
+                            <th>
+                                Address
+                            </th>
+                            <th>
+                                Deal Amount
+                            </th>
+                            <th>
+                                Reg.Date
+                            </th>
+                            <th>
+                                Reserved By
+                            </th>
+                            <th>
+                                Reserved For
+                            </th>
+                            <th>
+                                Plot Status
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td hidden>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Block)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PlotName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.plotStatus)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CustomerName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CNIC)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MobileNo)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.DealPrice)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CreationDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ReservedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ReservedFor)
+                                </td>
+
+                                <td>
+                                    Active
+                                </td>
+                                <td>
+                                    <a asp-action="Create" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

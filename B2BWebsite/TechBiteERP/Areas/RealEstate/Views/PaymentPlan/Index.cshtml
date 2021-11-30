@@ -1,0 +1,71 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.PaymentPlan>
+
+@{
+    ViewData["Title"] = "Payment Plan";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Payment Plan</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of Payment Plan</h5>
+
+                <div class="ibox-content">
+                    <table class="table dataTable_Responsive">
+                        <thead>
+                            <tr>
+                                <th>
+                                    SR.No
+                                </th>
+                                <th>
+                                    Plot
+                                </th>
+                                <th>
+                                    No Of Installment
+                                </th>
+                                <th>
+                                    Installment Amount
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PlotId)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.NoOfInstallment)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.InstallmentAmount)
+                                    </td>
+
+                                    <td>
+                                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-angle-right"></i></a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs"><i class="fa fa-trash"></i></a>
+                                        <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=PaymentPlan">Print</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

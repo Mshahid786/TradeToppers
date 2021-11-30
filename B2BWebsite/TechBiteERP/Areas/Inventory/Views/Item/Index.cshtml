@@ -1,0 +1,68 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.Item>
+
+@{
+    ViewData["Title"] = "Item";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Item</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table dataTable_Responsive">
+    <thead>
+        <tr>
+            <th>
+                Item Code
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Creation Date
+            </th>
+
+            <th>
+                Purchase Price
+            </th>
+            <th>
+                Remarks
+            </th>
+            <th>
+                ItemStatus
+            </th>
+            <th> Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.PurchasePrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarks)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemStatus)
+            </td>
+            <td>
+                <a asp-action="Create" asp-route-id="@item.ItemID">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.ItemID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

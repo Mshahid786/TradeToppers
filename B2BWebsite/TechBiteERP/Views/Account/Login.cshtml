@@ -1,0 +1,112 @@
+﻿@model TechBiteERP.Model.ViewModels.LoginViewModel
+
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+}
+<br />
+<br />
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trade Toppers | Login</title>
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+
+
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <style>
+        .hero-image {
+            background-image: url("../img/Logo.jpg");
+            background-color: #cccccc;
+            transition-property: all;
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        #checkBox {
+            margin-left: -148px;
+        }
+        .loginscreen.middle-box {
+            width: 300px;
+            margin-top: -13%;
+        }
+        .margin-top {
+            margin-top: 70px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="hero-image">
+    <div class="pull-left" style="margin-left:85px; background-color: rgba(1,1,1,0.5);padding: 23px;">
+        <div class="middle-box text-center loginscreen animated fadeInDown">
+            <div class="row" >
+                    <img src="~/img/TechbiteLogo.jpg" style="height:150px;width:150px;"/>
+                </div> <br />
+            <div>
+                <form asp-action="Login" asp-controller="Account" method="post" class="form-horizontal" role="form">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+
+                        <input asp-for="UserName" class="form-control" data-validation="required" placeholder="User Name" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input asp-for="Password" class="form-control" data-validation="required" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+
+                        <select for="FinancialYear" asp-items="@ViewBag.FinancialYear" name="FinancialYear" class="form-control">
+                            <option selected="selected" disabled>Select...</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox pull-left">
+                            <input asp-for="RememberMe" type="checkbox" class="custom-control-input">
+                            <label class="custom-control-label" asp-for="RememberMe">@Html.DisplayNameFor(m => m.RememberMe)</label>
+                        </div>
+
+                    </div>
+                    @*<div class="form-group">
+                            <select asp-for="CompanyId" asp-items="@(new SelectList(ViewBag.Companies,"Id","Name"))" class="form-control m-b">
+                                <option>Please select Company</option>
+                            </select>
+                            <span asp-validation-for="CompanyId" class="text-danger"></span>
+                        </div>*@
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-secondary block full-width m-b" value="Log in" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Mainly scripts -->
+    <script src="~/js/jquery-3.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+
+
+</body>
+
+</html>
+
+<script>
+    $.validate();
+</script>

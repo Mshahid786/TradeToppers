@@ -1,0 +1,50 @@
+﻿@model IEnumerable<TechBiteERP.Model.ViewModels.RoleViewModel>
+
+
+@{
+    ViewData["Title"] = "List of Roles";
+    ViewData["CurrentPage"] = "User Roles";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of User Roles</h5>
+                <div class="ibox-content">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.RoleName)
+                                </th>
+
+                                <th style="text-align:center;">
+                                    Assign Role
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RoleName)
+                                    </td>
+                                    <td style="text-align:center;">
+                                        <a asp-controller="Account" asp-action="BindRole" asp-route-id="@item.RoleId" class="btn btn-sm btn-primary m-t-n-xs"><i class="fa fa-user"></i></a>
+
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

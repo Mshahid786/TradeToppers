@@ -1,0 +1,441 @@
+﻿@model JOURNAL
+@{
+    ViewData["Title"] = "Create Journal";
+    ViewData["CurrentPage"] = "Journal";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <link href="~/css/datapicker/datepicker3.css" rel="stylesheet" />
+    <style>
+        
+        .tableFixHead {
+            overflow: auto;
+            height: 200px;
+        }
+
+            .tableFixHead thead th {
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+ 
+     
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label"> @ViewBag.Heading </label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="SalesmanForm" method="post" asp-action="Create" asp-controller="Journal" onsubmit="submitdetails();" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="JRVID" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="VoucherTypeId" class="col-lg-4 control-label">Voucher TYPE</label>
+                                <div class="col-lg-8">
+                                    <select name="VoucherTypeId" class="form-control" asp-for="VoucherTypeId" asp-items="@ViewBag.VoucherTypes" onchange="getVoucherType();">
+                                    </select>
+                                    <span asp-validation-for="VoucherTypeId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <div class="col-lg-8">
+                                    <input asp-for="VoucherTYPE" name="VoucherTYPE" readonly id="VoucherTYPEDESC" class="form-control" />
+                                </div>
+                                <div class="chiller_cb">
+                                    <input asp-for="PostedStatus" id="myCheckbox" type="checkbox" checked>
+                                    <label for="myCheckbox"> Reversed</label>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="JRTRANDATE" class="col-lg-4 control-label">Transaction Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="JRTRANDATE" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="VoucherNo" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="VoucherNo" readonly data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 chiller_cb">
+                            <div class="chiller_cb">
+                                <input asp-for="PostedStatus" id="myCheckbox" type="checkbox" checked>
+                                <label for="myCheckbox">Posted</label>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-3 col-sm-3">
+                                    <div class="form-group">
+                                        <label> Account Title</label>
+                                        <Select name="AccountId" id='AccountId' class="form-control select-item" asp-items="@ViewBag.Accounts">
+                                            <option selected disabled>
+                                                Select...
+                                            </option>
+                                        </Select>
+                                        <input id="JournalDetID" class="form-control on-focus-change-color hidden" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3" hidden>
+                                    <div class="form-group">
+                                        <label>Cost Centre</label>
+                                        <input id="CostCentre" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Particular</label>
+                                        <input id="Particular" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Ref.No</label>
+                                        <input id="RefNo" class="form-control on-focus-change-color" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Debit</label>
+                                        <input id="Debit" class="form-control on-focus-change-color" onchange="emptyCR();" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Credit</label>
+                                        <input id="Credit" class="form-control on-focus-change-color" onchange="emptyDR();" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-1 col-sm-1 m-t-md">
+                                    @*<div class="form-group">
+                          <button id="btnAdd1" type="button" class="btn btn-primary" onclick="addrows();">ADD</button>
+                        </div>*@
+                                    <div class="form-group pull-right">
+                                        <button tabindex="12" id="btnAdd1" type="button" class="btn btn-primary" onclick="addrows();">ADD</button>
+                                        <button id="btnUpdateMaster" style="display:none;" type="button" onclick="updaterows();" class="btn btn-primary">Update</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <input hidden id="tblvoucherDetails" name="tblvoucherDetails" type="text" />
+                        <div class="container-fluid" style="background-color:white;">
+                            <table id="tblvoucher" name="tableitems" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>A/C No</th>
+                                        <th>Account Title</th>
+                                        <th hidden>Cost Centre</th>
+                                        <th>Particulars</th>
+                                        <th>Ref.No</th>
+                                        <th class="text-right">Debit</th>
+                                        <th class="text-right">Credit</th>
+                                        <th>Action </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model.DetailItems != null)
+                                    {
+                                        @if (Model.DetailItems.Count > 0)
+                                        {
+                                            foreach (var items in Model.DetailItems)
+                                            {
+                                                <tr>
+                                                    <td name='JournalDetID' hidden class='JournalDetID'>@items.JournalDetID</td>
+                                                    <td name='ACNO' class='ACNO'>@items.ACNO </td>
+                                                    <td hidden name='ItemId' class='ItemId'>@items.ACNO </td>
+                                                    <td name='itemt' class='text-left itemt'>@items.ACNAME</td>
+                                                    <td hidden name='CostCenterId' class='text-left CostCenterId'>@items.JRPARTICULAR</td>
+                                                    <td name='Particular' class='text-left Particular'>@items.JRPARTICULAR</td>
+                                                    <td name='RefNo' class='text-right RefNo'>@items.JRCFNO</td>
+                                                    <td name='Debit' class='text-right Debit'>@items.JRDR</td>
+                                                    <td name='Credit' class='text-right Credit'>@items.JRCR</td>
+                                                    <td class="text-center"><a class="btn btn-sm btn-info"> <i class="fa fa-edit" title="Edit"></i></a><a class=""> </a><a class="btn btn-danger"><i class="fas fa-trash remove-row"></i></a></td>
+                                                </tr>
+
+                                            }
+                                        }
+                                    }
+
+                                </tbody>
+                                <tfoot align="right">
+                                    <tr><th></th><th></th><th></th><th>Total :</th><th>0.00</th><th>0.00</th><th></th></tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="Payee" class="col-lg-4 control-label">Payee</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Payee" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 pull-right">
+                            <div class="form-group">
+                                <label -for="Payee" class="col-lg-4 control-label">Difference : </label>
+                                <div class="col-lg-6">
+                                    <input id="difference" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 pull-right" hidden>
+                            <div class="form-group">
+                                <label -for="Payee" class="col-lg-4 control-label">Total : </label>
+                                <div class="col-lg-3">
+                                    <input asp-for="TotalDebit" name="TotalDebit" id="tDebit" class="form-control" />
+                                </div>
+                                <div class="col-lg-3">
+                                    <input asp-for="TotalCredit" name="TotalCredit" id="tCredit" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="AccountId" class="col-lg-4 control-label">Account No</label>
+                                <div class="col-lg-8">
+                                    <select name="AccountId" class="form-control" asp-for="AccountId" asp-items="@ViewBag.Accounts">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="AccountId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label asp-for="CheuquePrintId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="CheuquePrintId" class="form-control" asp-for="CheuquePrintId" asp-items="@ViewBag.VoucherTypes">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CheuquePrintId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="Journal">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+    <script src="~/js/Journal/Journal.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            validate();
+        });
+    </script>
+    <script>
+        function submitdetails() {
+            debugger;
+            var formdetails = [];
+            $.each($("#tblvoucher tbody tr"), function () {
+                formdetails.push({
+                    JournalDetID: Number($(this).find('.JournalDetID').html()),
+                    ACNO: parseInt($(this).find('.ItemId').html()),
+                    ACNAME: $(this).find('.itemt').html(),
+                    JRPARTICULAR: $(this).find('.Particular').html(),
+                    JRCFNO: $(this).find('.RefNo').html(),
+                    JRDR: $(this).find('.Debit').html(),
+                    JRCR: $(this).find('.Credit').html(),
+                });
+            });
+            var model = JSON.stringify(formdetails);
+            $("#tblvoucherDetails").val(model);
+            return true;
+        }
+
+    </script>
+
+    <script>
+        function addrows() {
+            debugger;
+            var JournalDetID = $("#JournalDetID").val();
+            var itemt = $("#AccountId option:selected").text();
+            var itemv = $("#AccountId option:selected").val();
+            var AccountNo = $("#AccountId option:selected").val();
+            var CostCentre = $("#CostCentre").val();
+            var Particular = $("#Particular").val();
+            var RefNo = $("#RefNo").val();
+            var Debit = Number($("#Debit").val());
+            var Credit = Number($("#Credit").val());
+            if (itemv != "Select..." && (Credit != 0 || Debit != 0)) {
+                debugger;
+                var row = "<tr>" +
+                    "<td name='JournalDetID' hidden class='JournalDetID'>" + JournalDetID + "</td>" +
+                    "<td name='ACNO'  class='ACNO' >" + AccountNo + "</td>" +
+                    "<td name='ItemId' hidden class='ItemId'> " + itemv + "</td>" +
+                    "<td class='itemt' name='itemt'>" + itemt + "</td>" +
+                    "<td hidden name='CostCentre' class='CostCentre'></td>" +
+                    "<td name='Particular' class='Particular'>" + Particular + "</td>" +
+                    "<td name='RefNo' class='RefNo'>" + RefNo + "</td>" +
+                    "<td name='Debit' class='text-right Debit' > " + Debit + "</td > " +
+                    "<td name='Credit' class='text-right Credit'>" + Credit + "</td>" +
+                    '"<td class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+                    "</tr>";
+                $("#tblvoucher tbody").append(row);
+            } else {
+
+                swal("", "Please Select Account Title & Enter Debit or Credit.", "error");
+            }
+
+            validate();
+            clearScreen();
+        }
+    </script>
+
+
+
+    <script>
+        $("#tblvoucher tbody").on("click", ".remove-row", function () {
+
+            $(this).closest('tr').remove();
+            validate();
+
+        });
+
+    </script>
+
+    <script>
+
+        $("#tblvoucher tbody").on("click", ".fa-edit", function () {
+            //    var check = "";
+
+
+            if ($('#btnUpdateMaster').css('display') == 'none') {
+
+                debugger;
+                $('#AccountId').val('');
+                var $item0 = Number($(this).closest("tr")
+                    .find(".JournalDetID")
+                    .html());
+                var $item1 = Number($(this).closest("tr")
+                    .find(".ItemId")
+                    .html());
+                var $item2 = $(this).closest("tr")
+                    .find(".Particular")
+                    .html();
+                var $item3 = $(this).closest("tr")
+                    .find(".RefNo")
+                    .html();
+                var $item4 = $(this).closest("tr")
+                    .find(".Debit")
+                    .html();
+                var $item5 = $(this).closest("tr")
+                    .find(".Credit")
+                    .html();
+
+                $('#JournalDetID').val($item0);
+                $('#AccountId').val($item1);
+                $('#Particular').val($item2);
+                $('#RefNo').val($item3);
+                $('#Debit').val($item4);
+                $('#Credit').val($item5);
+
+                $(this).closest("tr").remove();
+                $('#btnUpdateMaster').css('display', 'block');
+                $('#btnAdd1').css('display', 'none');
+
+                validate();
+
+            }
+            else if ($('#btnUpdateMaster').css('display') == 'block') {
+
+                swal("", "Please Finish Updating Current Part.", "warning");
+            }
+        });
+
+        function updaterows() {
+
+            debugger;
+            var JournalDetID = $("#JournalDetID").val();
+            var itemt = $("#AccountId option:selected").text();
+            var itemv = $("#AccountId option:selected").val();
+            var AccountNo = $("#AccountId option:selected").val();
+            var CostCentre = $("#CostCentre").val();
+            var Particular = $("#Particular").val();
+            var RefNo = $("#RefNo").val();
+            var Debit = Number($("#Debit").val());
+            var Credit = Number($("#Credit").val());
+
+            if (itemv != "" && itemv != "Select an item...") {
+
+            }
+            else {
+                swal("", "Please Enter Required Field..!", "info");
+                return;
+            }
+
+            var row = "<tr>" +
+                "<td name='JournalDetID' hidden class='JournalDetID'>" + JournalDetID + "</td>" +
+                "<td name='ACNO'  class='ACNO' >" + AccountNo + "</td>" +
+                "<td hidden name = 'ItemId1' class='ItemId'> " + itemv + "</td >" +
+                "<td class='itemt' value=" + itemt + " >" + itemt + "</td>" +
+                "<td hidden name='CostCentre' class='CostCentre'></td>" +
+                "<td  name='Particular' class='Particular'>" + Particular + "</td>" +
+                "<td name='RefNo' class='RefNo'>" + RefNo + "</td>" +
+                "<td name='Debit' class='text-right Debit' > " + Debit + "</td > " +
+                "<td name='Credit' class='text-right Credit'>" + Credit + "</td>" +
+                '"<td class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"'
+            "</tr >"
+
+            $("#tblvoucher tbody ").append(row);
+            $('#btnUpdateMaster').css('display', 'none');
+            $('#btnAdd1').css('display', 'block');
+
+            validate();
+            clearScreen();
+        }
+
+    </script>
+
+
+}

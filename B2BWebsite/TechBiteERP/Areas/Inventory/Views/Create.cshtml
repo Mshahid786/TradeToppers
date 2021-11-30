@@ -1,0 +1,182 @@
+﻿@model TechBiteERP.Model.Models.Item
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Create Items";
+    ViewData["CurrentPage"] = "Items";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>@ViewBag.EntityState Create Item</h5>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="Item" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="tabs-container">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-detail">Item Details</a></li>
+                            @*<li class=""><a data-toggle="tab" href="#tab-financial">Financial</a></li>*@
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-detail" class="tab-pane active">
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <label asp-for="ItemCode" class="col-lg-4 control-label"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="ItemCode" class="form-control" onchange="checkCode()" data-validation="required" />
+                                                            <span asp-validation-for="ItemCode" class="text-danger"></span>
+                                                            <span id="Status"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label asp-for="ItemCode" class="control-label col-lg-4"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="ItemCode" class="form-control" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label asp-for="ItemGroupCode" class="control-label col-lg-4"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="ItemGroupCode" class="form-control" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label class="col-lg-4 control-label" asp-for="MeterialID"></label>
+                                                        <div class="col-lg-8">
+                                                            <select asp-for="MeterialID" asp-items="@ViewBag.listOfItemAccounts" class="form-control" data-validation="required">
+                                                                <option selected="selected" disabled>Select...</option>
+                                                            </select>
+                                                            <span asp-validation-for="MeterialID" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label asp-for="RetailPrice" class="col-lg-4 control-label"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="RetailPrice" class="form-control" />
+                                                            <span asp-validation-for="RetailPrice" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <input type="hidden" asp-for="ItemID" />
+                                                    <div class="form-group">
+                                                        <label asp-for="Picture1Name" class="control-label col-lg-4"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="Picture1Name" class="form-control" data-validation="required" />
+                                                            <span asp-validation-for="Picture1Name" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label class="col-lg-4 control-label" asp-for="MeterialID"></label>
+                                                        <div class="col-lg-8">
+                                                            <select asp-for="MeterialID" asp-items="@ViewBag.listOfItemCategories" class="form-control" data-validation="required">
+                                                                <option selected="selected" disabled>Select...</option>
+                                                            </select>
+                                                            <span asp-validation-for="MeterialID" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label class="col-lg-4 control-label" asp-for="MeterialID"></label>
+                                                        <div class="col-lg-8">
+                                                            <select asp-for="MeterialID" asp-items="@ViewBag.listOfManufactures" class="form-control" data-validation="required">
+                                                                <option selected value="1">Vision Plus</option>
+                                                                <option value="2">Usman Enterprises</option>
+                                                            </select>
+                                                            <span asp-validation-for="MeterialID" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label asp-for="Remarks" class="control-label col-lg-4"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="Remarks" class="form-control" data-validation="required" />
+                                                            <span asp-validation-for="Remarks" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label asp-for="RetailPrice" class="control-label col-lg-4"></label>
+                                                        <div class="col-lg-8">
+                                                            <input asp-for="RetailPrice" class="form-control" />
+                                                            <span asp-validation-for="RetailPrice" class="text-danger"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label asp-for="Remarks" class="col-lg-2  control-label"></label>
+                                                        <div class="col-lg-10">
+                                                            <textarea asp-for="Remarks" class="form-control" rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                       
+                                    </div>
+
+                                   
+
+                                </div>
+                            </div>
+
+
+                            <!--financial-->
+                            <div id="tab-financial" class="tab-pane">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+
+
+                                  
+                                        </div>
+                                        <!--
+                                        Below is the Div for picture of product -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a value="Back" class="btn btn-white" asp-controller="Item" asp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-primary" asp-action="Create" asp-controller="Item" />
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+  
+}

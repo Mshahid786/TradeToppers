@@ -1,0 +1,613 @@
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll.config
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.pdb
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.exe
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.exe.config
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.rsp
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.exe
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.exe.config
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.rsp
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.AppContext.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Console.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.exe
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.exe.config
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.rsp
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\AutoMapper.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Castle.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Fluent.Infrastructure.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Newtonsoft.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Owin.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Buffers.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Memory.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.ValueTuple.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Helpers.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Mvc.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Razor.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\WebActivatorEx.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EnvDTE.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\stdole.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.MSXML.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\AutoMapper.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Castle.Core.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Newtonsoft.Json.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Buffers.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Memory.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.ValueTuple.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Helpers.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Mvc.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Razor.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.AssemblyReference.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\RdlCompile.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\RdlCompile.compiled
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CoreCompileInputs.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CopyComplete
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.pdb
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll.config
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.pdb
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.exe
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.exe.config
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csc.rsp
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.exe
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.exe.config
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\csi.rsp
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.AppContext.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Console.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Net.Http.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.exe
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.exe.config
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\vbc.rsp
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\AutoMapper.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Castle.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Fluent.Infrastructure.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.SqlServer.Types.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Newtonsoft.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Owin.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Buffers.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Memory.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.ValueTuple.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Helpers.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Mvc.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Razor.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\WebActivatorEx.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EnvDTE.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\stdole.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.MSXML.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\AutoMapper.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Castle.Core.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Newtonsoft.Json.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Buffers.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Memory.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.ValueTuple.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Helpers.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Mvc.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.Razor.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.AssemblyReference.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\RdlCompile.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\RdlCompile.compiled
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CoreCompileInputs.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CopyComplete
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.pdb
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll.config
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\TechBiteERP.ReportProject.pdb
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csc.exe
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csc.exe.config
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csc.rsp
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csi.exe
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csi.exe.config
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\csi.rsp
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.AppContext.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Console.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\vbc.exe
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\vbc.exe.config
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\vbc.rsp
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\AutoMapper.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Castle.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\EntityFramework.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Fluent.Infrastructure.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Newtonsoft.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Owin.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Buffers.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Memory.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.ValueTuple.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Helpers.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Mvc.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Razor.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\WebActivatorEx.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\EnvDTE.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\stdole.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.MSXML.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\AutoMapper.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Castle.Core.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\EntityFramework.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Newtonsoft.Json.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Buffers.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Memory.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Numerics.Vectors.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.ValueTuple.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Helpers.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Mvc.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.Razor.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.AssemblyReference.cache
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.csproj.CopyComplete
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.ReportProject\obj\Debug\TechBiteERP.ReportProject.pdb

@@ -1,0 +1,1409 @@
+C:\Users\office\source\repos\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+C:\Users\office\source\repos\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\office\source\repos\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csprojAssemblyReference.cache
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\office\source\repos\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+E:\C# Source\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+E:\C# Source\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+E:\C# Source\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csprojAssemblyReference.cache
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+E:\C# Source\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+D:\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+D:\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+D:\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csprojAssemblyReference.cache
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+D:\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csprojAssemblyReference.cache
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+E:\Core Project\Core Source (New)\TechBiteERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Admin\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.AssemblyReference.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Sajid Maher\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.AssemblyReference.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\office\source\repos\Mshahid786\TechnoGeniesERP\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.deps.json
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\TechBiteERP.Model.pdb
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.AssemblyReference.cache
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfoInputs.cache
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.AssemblyInfo.cs
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.dll
+C:\Users\Muhammad Shahid\source\repos\TradeToppers\B2BWebsite\TechBiteERP.Model\obj\Debug\netcoreapp3.1\TechBiteERP.Model.pdb

@@ -1,0 +1,117 @@
+﻿@model FinYear
+@{
+    ViewData["Title"] = "Create Financial Year";
+    ViewData["CurrentPage"] = "Financial Year";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label"> Financial Year </label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="VoucherTypeForm" method="post" asp-action="Create" asp-controller="FinYear" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="Id" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="FYear" class="col-lg-4 control-label">Financial Year</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="FYear" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="FYear" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="SDate" class="col-lg-4 control-label">Start Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="SDate" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="SDate" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="EDate" class="col-lg-4 control-label">End Date</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="EDate" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="EDate" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="YClose" class="col-lg-4 control-label">Year Close</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="YClose" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="YClose" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="EXRate" class="col-lg-4 control-label">Ex Rate</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="EXRate" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="EXRate" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="FinYear">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+
+}

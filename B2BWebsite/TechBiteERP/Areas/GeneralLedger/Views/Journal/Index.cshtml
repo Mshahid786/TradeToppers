@@ -1,0 +1,572 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.JOURNAL>
+
+@{
+    ViewData["Title"] = "Index";
+    // ViewData["CurrentPage"] = "List Voucher";
+}
+@section customCSS{
+    <link href="~/css/datapicker/datepicker3.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+       /* .highlight {
+            background-color: darkgray;
+        }*/
+        table#tblvoucher {
+            border-collapse: collapse;
+        }
+
+       /* #tblvoucher tr {
+            background-color: #eee;
+            border-top: 1px solid #fff;
+        }*/
+
+            #tblvoucher tr:hover {
+                background-color: #ccc;
+            }
+
+        #tblvoucherDetail th {
+            background-color: #e6e5e5;
+        } 
+
+        #tblvoucher th, #tblvoucher td {
+            padding: 3px 5px;
+        }
+
+            #tblvoucher td:hover {
+                cursor: pointer;
+            }
+        .my-custom-scrollbar {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .table-wrapper-scroll-y {
+            display: block;
+        }
+        .tableFixHead {
+            overflow: auto;
+            height: 200px;
+        }
+
+            .tableFixHead thead th {
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+
+        /* Just common table stuff. Really. */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px 16px;
+        }
+
+        th {
+            background: #eee;
+        }
+    </style>
+
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Vocher Posting</h5>
+                <div class="ibox-content">
+                    <div class="row text-center">
+                        <input type="radio" id="dateWise" name="enableDisable" value="0" onclick="EnableDisable();">
+                        <label>Search By Voucher Date</label> &nbsp;&nbsp;
+                        <input type="radio" id="noWise" name="enableDisable" value="1" onclick="EnableDisable();">
+                        <label>Search By Voucher #</label>
+                    </div><br />
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label -for="VoucherTypeId" class="col-lg-4 control-label"> TYPE</label>
+                                <div class="col-lg-8">
+                                    <select id="VoucherTypeId1" name="VoucherTypeId" class="form-control" -for="VoucherTypeId" asp-items="@ViewBag.VoucherTypes">
+                                    </select>
+                                    <span -validation-for="VoucherTypeId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <label> From </label>
+                        </div>
+                        <div class="col-md-2">
+
+                            <div class="form-group" id="data_2">
+                                @*<label -for="Date" class=" control-label"> From </label>*@
+                                <div class="col-8 input-group date">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input Asp-for="@Model.FirstOrDefault().JRTRANDATE" id="FromDate" class="form-control" value="@DateTime.Now.ToString("dd/MMM/yyyy")" type="text" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <label -for="Date" class=" control-label"> To</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group" id="data_2">
+                                @*<label -for="Date" class=" control-label"> To</label>*@
+                                <div class="col-8 input-group date">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input Asp-for="@Model.FirstOrDefault().JRTRANDATE" id="ToDate" class="form-control" value="@DateTime.Now.ToString("dd/MMM/yyyy")" type="text" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3" hidden>
+                            <a class="btn btn-info pull-right m-t-n-xs" onclick="getData('ByDate');" id="SelectByDate"><strong>  Select By Date  </strong></a>
+                        </div>
+                    </div>
+
+                    @*<br />*@
+                    <div class="row">
+                        <div class="col-md-3" hidden>
+                            <div class="form-group">
+                                <label -for="VoucherTypeId" class="col-lg-4 control-label"> TYPE</label>
+                                <div class="col-lg-8">
+                                    <select id="VoucherTypeId2" name="VoucherTypeId" class="form-control" -for="VoucherTypeId" asp-items="@ViewBag.VoucherTypes">
+                                    </select>
+                                    <span -validation-for="VoucherTypeId" class="text-danger"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <label> From (#) </label>
+                        </div>
+                        <div class="col-md-2">
+
+                            <div class="form-group">
+
+                                <div class="col-lg-12">
+                                    <input type="number" id="fromVoucherNo" placeholder="Voucher #" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                            &nbsp;&nbsp; <label> &nbsp; eg."1"</label>
+                        </div>
+                        <div class="col-md-1">
+                            <label> To (#)</label>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+
+                                <div class="col-lg-12">
+                                    <input type="number" id="toVoucherNo" placeholder="Voucher #" data-validation="required" class="form-control" />
+                                </div>
+                            </div>
+                            &nbsp;&nbsp;<label>&nbsp; eg."10" </label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="radio" id="Posted" name="vtype" value="1">
+                            <label for="male">Posted</label>
+                            <input type="radio" id="UnPosted" name="vtype" value="0">
+                            <label for="female">UnPosted</label>
+                            <input type="radio" id="other" name="vtype" value="2">
+                            <label for="other">All</label>
+                        </div>
+                        <div class="col-md-3" hidden>
+                            <a class="btn btn-info pull-right m-t-n-xs" onclick="getData('ByNo');" id="SelectByNo"><strong>Select By Number</strong></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="btn btn-info pull-left m-t-n-xs" onclick="getData();" id="SelectByNo"><strong>Search</strong></a>
+                        </div>
+                    </div> <br />
+                    <div class="col-6">
+                        <div class="row" aria-label="Basic example">
+                            <button id="btnApprovedStatus" onclick="updateInvoiceStatus('Post')" type="button" class="btn btn-primary"> Post</button> &nbsp;&nbsp;
+                            <button id="btnApprovedStatus" onclick="updateInvoiceStatus('UnPost')" type="button" class="btn btn-primary"> Un Post</button>
+                        </div> 
+                    </div>
+                    <div class="row text-center">
+                        <h2 id="lblType2">All Vouchers</h2>
+                    </div>
+                    <div class="tableFixHead">
+                        <table id="tblvoucher" class="table table-bordered table-striped dataTables-tblvoucher">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Select
+                                    </th>
+                                    <th>
+                                        Sr.No
+                                    </th>
+                                    <th>
+                                        Voucher No
+                                    </th>
+                                    <th>
+                                        Type
+                                    </th>
+                                    <th>
+                                        Voucher Date
+                                    </th>
+                                    <th class="text-right">
+                                        Debit
+                                    </th>
+
+                                    <th class="text-right">
+                                        Credit
+                                    </th>
+                                    <th class="text-right">
+                                        Difference
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    <th>
+                                        Action
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    var difference = item.TotalDebit - item.TotalCredit;
+                                    var Status = "";
+                                    if (item.PostedStatus)
+                                    {
+                                        Status = "Post";
+                                    }else
+                                    {
+                                        Status = "UnPost";
+                                    }
+
+                                <tr onclick="GetVoucherDetail(@item.JRVID);">
+                                    <td>
+                                        <input class='Is_Status' name='Is_Status' type='checkBox'>
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.JRVID)
+                                    </td>
+                                    <td class="myCell">
+                                        @Html.DisplayFor(modelItem => item.VoucherNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.VoucherTYPE)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.JRTRANDATE)
+                                    </td>
+                                    <td class="text-right">
+                                        @Html.DisplayFor(modelItem => item.TotalDebit)
+                                    </td>
+                                    <td class="text-right">
+                                        @Html.DisplayFor(modelItem => item.TotalCredit)
+                                    </td>
+                                    <td class="pull-right">
+                                        @difference
+                                    </td>
+                                    <td class="pull-center">
+                                        @Status
+                                    </td>
+                                    <td>
+                                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.JRVID"><i class="fa fa-edit"></i></a>
+                                        @*<a asp-action="Delete" asp-controller="Journal" asp-route-id="@item.JRVID" class="btn btn-sm btn-danger m-t-n-xs" onclick="return confirm('Are you sure you want to Delete Voucher?')"><i class="fa fa-trash-alt"></i></a>*@
+                                        <a class="btn btn-sm btn-secondary m-t-n-xs" onclick="getOfferDetail(@item.JRVID);"><i class="fa fa-eye"></i>View</a>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div><br />
+                    <div class="row text-center">
+                        <h2 id="lbl"> Voucher Detail</h2>
+                    </div>
+                    <div class="tableFixHead">
+                        <table id="tblvoucherDetail" class="table table-bordered table-striped dataTables-tblvoucher">
+                            <thead>
+                                <tr>
+                                    <th>Sr.No</th>
+                                    <th>A/C No</th>
+                                    <th>Account Tittle</th>
+                                    <th>Particular</th>
+                                    <th class="text-right">Debit</th>
+                                    <th class="text-right">Credit</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+                </div>
+        </div>
+        <div class="container">
+            <!-- Trigger the modal with a button -->
+            <!-- Modal -->
+            <div class="modal fade" id="invoiceModal" role="dialog" style="margin-left:0px">
+                <div class="modal-dialog modal-lg pull-right" style="width:800px;">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color:lightgrey">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body">
+                            <h3 class="pull-left"><u></u></h3>
+                            <div class="row text-center">
+                                <div class="col-md-12">
+                                    <div class="ibox ">
+                                        <p id="itemTable"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer" style="height:60px">
+                            <button type="button" class="btn" style="background-color:lightgrey" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="~/js/AjaxMethod.js"></script>
+<script>
+    function getOfferDetail(saleOrderId) {
+        debugger;
+        var saleOrderId = saleOrderId;
+        $.ajax({
+            url: '/GeneralLedger/Journal/GetUniversity',
+            type: 'Post',
+            method: 'Post',
+            data: { id: saleOrderId },
+            success: function (response) {
+                $('#itemTable').html(response);
+                // Display Modal
+                $('#invoiceModal').modal('show');
+            },
+            fail: function (response) {
+                //console.log('message from fail...', response.responseText);
+            }
+        });
+    }
+
+</script>
+<script>
+    function getData() {
+        debugger;
+        var posetd = "";
+        var type = "ByDate";
+        var VoucherType = "";
+        var VoucherTypeId = 1;
+        var recordtype = $('input[name="enableDisable"]:checked').val();
+        var VoucherType1 = $("#VoucherTypeId1 option:selected").text();
+        var VoucherType2 = $("#VoucherTypeId2 option:selected").text();
+        var VoucherTypeId1 = $("#VoucherTypeId1").val();
+        var IsPosted = parseInt($('input[name="vtype"]:checked').val());
+        if (IsPosted == 1) { posetd = "Posetd" } else if (IsPosted == 2) { posetd = " Posted & UnPosted" } else { posetd = "UnPosted" }
+        var FromDate = $("#FromDate").val();
+        var ToDate = $("#ToDate").val();
+        var fromVoucherNo = $("#fromVoucherNo").val();
+        var toVoucherNo = $("#toVoucherNo").val();
+        if (recordtype == 0) {
+            type = "ByDate";
+            VoucherTypeId = VoucherTypeId1
+            VoucherType = VoucherType1;
+            $('#lblType2').text("Searched By Voucher Date ( " + VoucherType + " " + posetd + " Vouchers From " + FromDate + " To " + ToDate + " )");
+        } else if (recordtype == 1) {
+            type = "ByNo";
+            VoucherTypeId = VoucherTypeId1;
+            VoucherType = VoucherType2;
+            $('#lblType2').text("Searched By Voucher Number ( " + VoucherType + " " + posetd + " Vouchers From " + FromDate + " To " + ToDate + " )");
+        }
+
+        if (recordtype != undefined) {
+            if (recordtype == 1 && ( (fromVoucherNo == undefined || fromVoucherNo == "") || (toVoucherNo == undefined || toVoucherNo == ""))) {
+
+                swal("", "Please enter Voucher  #..!", "error");
+
+            } else {
+
+                $.ajax({
+                    type: "Post",
+                    url: "/GeneralLedger/Journal/Indexes?fromNo=" + fromVoucherNo + "&toNo=" + toVoucherNo + "&voucherTyeId=" + VoucherTypeId + "&fromDate=" + FromDate + "&toDate=" + ToDate + "&type=" + type + "&IsPosted=" + IsPosted,
+                    success: function (res) {
+                        debugger;
+                        console.log(res);
+                        var rows = "";
+                        for (i = 0; i < res.length; i++) {
+
+                            debugger;
+                            var jrvid = res[i].jrvid;
+                            var monthlyJVNO = res[i].monthlyJVNO;
+                            var voucherNo = res[i].voucherNo;
+                            var voucherTYPE = res[i].voucherTYPE;
+                            var status = res[i].status;
+                            var date = getFormattedDate(res[i].jrtrandate);
+                            var jrtrandate = date;
+                            var totalDebit = res[i].totalDebit;
+                            var totalCredit = res[i].totalCredit;
+                            var difference = totalDebit - totalCredit;
+                            var StatusText = "";
+                            if (status) {
+                                StatusText = "Posted";
+                            } else if (!status) {
+                                StatusText = "UnPosted"
+                            }
+
+                            rows += "<tr onclick='GetVoucherDetail(" + jrvid + ");'><td ><input class='Is_Status' name='Is_Status' type='checkBox'></td><td class='d-none'>" + jrvid + "</td><td class='myCell'>" + voucherNo + "</td><td>" + voucherTYPE + "</td><td style='width:30px'>" + jrtrandate + "</td><td class='text-right'>" + totalDebit + "</td><td  class='text-right'>" + totalCredit + "</td>><td  class='text-right'>" + difference + "</td><td class='text-center'>" + StatusText + "</td><td> <a href='/GeneralLedger/Journal/Create?id=" + jrvid + "' class='btn btn-sm btn-primary m-t-n-xs'><i class='fa fa - edit'></i> </a> <a onclick='getOfferDetail(" + jrvid + ")' class='btn btn-sm btn-secondary m-t-n-xs'><i class='fa fa - eye'></i>View</a></td></tr>";
+
+                        }
+                        $("#tblvoucher  tbody tr").remove();
+                        $("#tblvoucher tbody").append(rows);
+
+                    }
+                })
+            }
+        } else {
+           // alert("Select Search Type Please..!")
+            swal("", "Please select search type first..!", "error");
+        }
+    }
+
+    function getFormattedDate(date) {
+        date = new Date(date);
+        let year = date.getFullYear();
+        let month = (1 + date.getMonth()).toString().padStart(2, '0');
+        let day = date.getDate().toString().padStart(2, '0');
+
+        return day + '/' + month + '/' + year;
+    }
+
+    function EnableDisable() {
+        debugger;
+        var recordtype = parseInt($('input[name="enableDisable"]:checked').val());
+        if (recordtype == 0) {
+            //$("#VoucherTypeId2").prop("disabled", true);
+            //$('#dropdown').removeAttr('disabled');
+            $('#fromVoucherNo').prop('readonly', true);
+            $('#toVoucherNo').prop('readonly', true);
+            //$("#VoucherTypeId1").prop("disabled", false);
+            //$('#dropdown').removeAttr('disabled');
+            //$('#FromDate').prop('readonly', false);
+            //$('#ToDate').prop('readonly', false);
+
+        } else if (recordtype == 1) {
+            //$("#VoucherTypeId2").prop("disabled", false);
+            //$('#dropdown').removeAttr('disabled');
+            $('#fromVoucherNo').prop('readonly', false);
+            $('#toVoucherNo').prop('readonly', false);
+            //$("#VoucherTypeId1").prop("disabled", true);
+            //$('#dropdown').removeAttr('disabled');
+            //$('#FromDate').prop('readonly', true);
+            //$('#ToDate').prop('readonly', true);
+        }
+    }
+
+</script>
+
+<script>
+
+    function GetVoucherDetail(id) {
+
+        if (id != undefined) {
+            $.ajax({
+                type: "Post",
+                url: "/GeneralLedger/Journal/GetOrderViewItems?id=" + id,
+                success: function (res) {
+                    debugger;
+                    console.log(res);
+                    var rows = "";
+                    for (i = 0; i < res.length; i++) {
+
+                        debugger;
+                        var journalDetID = res[i].journalDetID;
+                        var acfullno = res[i].acfullno;
+                        var acname = res[i].acname;
+                        var jrparticular = res[i].jrparticular;
+                        var jrdr = res[i].jrdr;
+                        var jrcr = res[i].jrcr;
+
+                        rows += "<tr></td><td class='d-none'>" + journalDetID + "</td><td class='myCell'>" + acfullno + "</td><td>" + acname + "</td><td>" + jrparticular + "</td><td  class='text-right'>" + jrdr + "</td><td  class='text-right'>" + jrcr + "</td></tr>";
+
+                    }
+                    $("#tblvoucherDetail  tbody tr").remove();
+                    $("#tblvoucherDetail tbody").append(rows);
+
+                }
+            })
+        }
+    }
+ 
+    
+  
+</script>
+<script>
+    function updateInvoiceStatus(status) {
+        debugger;
+        //var status = $("#statusList option:selected").text();
+        // if (status != "Select Status") {
+        var values = new Array();
+        var currentStatus;
+        var oppositeStatus;
+        var statusType = true;
+        if (status == "Post") {
+            statusType = true;
+        }
+        else if (status == "UnPost") {
+            statusType = false;
+        }
+        $.each($("input[name='Is_Status']:checked"), function () {
+            var data = $(this).parents('tr:eq(0)');
+            currentStatus = $.trim($(data).find('td:eq(8)').text());
+
+            if (currentStatus == "Posted") {
+                currentStatus = "Post";
+            } else if (currentStatus == "UnPosted") {
+                currentStatus = "UnPost";
+            }
+            if (status != currentStatus) {
+                debugger;
+                values.push({ 'voucher_id': $(data).find('td:eq(1)').text() });
+            }
+        });
+
+        if (values.length > 0) {
+            var formData = new FormData();
+            formData.append("VoucherList", JSON.stringify(values));
+            formData.append("Status", statusType);
+            AjaxPost("/GeneralLedger/Journal/UpdateInvoiceStatus", formData, function (response) {
+                if (response == "Success") {
+                    location.reload();
+                }
+                else if (response == "Error") {
+                    $.toast({
+                        type: 'error',
+                        title: 'Required',
+                        subtitle: 'Proccess not completed some thing went wrong check error log!',
+                        content: '',
+                        delay: 5000,
+                        position: 'top-right',
+
+                    });
+                }
+            });
+        }
+        else if (status == currentStatus) {
+
+            swal("", "Voucher is already " + status  +"ed.", "error");
+        }else {
+
+            swal("", "Please Select Voucher To " + status +".", "error");
+        }
+    }
+</script>
+

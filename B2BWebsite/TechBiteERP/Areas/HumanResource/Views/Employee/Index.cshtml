@@ -1,0 +1,75 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.HREmployee>
+
+@{
+    ViewData["Title"] = "Index";
+    ViewData["CurrentPage"] = "List Employee";
+
+   // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>List of Employee</h5>
+
+                <div class="ibox-content">
+                    <div class="text-center">
+                        <a class="btn btn-primary pull-left m-t-n-xs" asp-action="Create"><strong>Create</strong></a>
+                    </div>
+                    <table class="table dataTable_Responsive">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                  Employee Name
+                                </th>
+                                <th>
+                                    Address
+                                </th>
+                                <th>
+                                    Email
+                                </th>
+                                <th>
+                                    Area
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EmployeeID)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.EmployeeName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Address)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Email)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CityID)
+                                    </td>
+                                    <td>
+                                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.EmployeeID"><i class="fa fa-edit"></i></a>
+                                        <a asp-action="Delete" asp-controller="Employee" asp-route-id="@item.EmployeeID" class="btn btn-sm btn-danger m-t-n-xs" onclick="return confirm('Are you sure you want to Delete Invoice?')"><i class="fa fa-trash-alt"></i></a>
+                                        @*<a asp-action="AssignRole" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-user"></i></a>*@
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

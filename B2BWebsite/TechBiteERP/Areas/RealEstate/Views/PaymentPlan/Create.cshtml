@@ -1,0 +1,649 @@
+﻿@model TechBiteERP.Model.Models.PaymentPlan
+
+
+@{
+    ViewData["Title"] = "Payment Plan";
+    ViewData["CurrentPage"] = "Payment Plan";
+    var count = 1;
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label">  Add New Payment Plan </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="PaymentPlan" onsubmit="return submitdetails();" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotId">Plot</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotId" asp-items="@ViewBag.Items" onchange="getItemDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                                @*<option value="0">All</option>*@
+                                            </select>
+                                            <span asp-validation-for="PlotId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<div class="col-lg-6">
+            <div class="form-group">
+                <label class="col-lg-4 control-label" asp-for="BlockId">Block</label>
+                <div class="col-lg-8">
+                    <select asp-for="BlockId" asp-items="@ViewBag.Block" class="form-control" data-validation="required">
+                        <option selected="selected" disabled>Select...</option>
+                    </select>
+                    <span asp-validation-for="BlockId" class="text-danger"></span>
+                </div>
+            </div>
+        </div>*@
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label -for="Block" class="control-label col-lg-4">  Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="BlockId" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="BookingDate" class="control-label datepicker col-lg-4">Booking Date</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="BookingDate" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="PlotPrice" class="control-label col-lg-4">Plot Price</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PlotPrice" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="PayableAmount" class="control-label col-lg-4">Payable Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="PayableAmount" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Booking" class="control-label col-lg-4">Booking</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Booking" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Confirmation" class="control-label col-lg-4"> Confirmation</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Confirmation" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Allotment" class="control-label col-lg-4"> Allotment</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Allotment" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Possesion" class="control-label col-lg-4"> Possesion</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Possesion" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Balance" class="control-label col-lg-4"> Balance</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Balance" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="NoOfInstallment" class="control-label col-lg-4"> No Of Install.</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="NoOfInstallment" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="InstallmentAmount" class="control-label col-lg-4"> Installments</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="InstallmentAmount" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6" hidden>
+                                    <div class="form-group">
+                                        <label  -for="BubbleAmount" class="control-label col-lg-4"> Bubble Amount</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="BubbleAmount" id="BubbleAmount" onchange="calculateInstallments();" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="QuartleyInstall" class="control-label col-lg-4"> QuartleyInstall</label>
+                                        <input asp-for="IsQuartleyInstall" onchange="calculateQuartly();" class="chiller_cb" id="IsQuartleyInstall" type="checkbox" checked>
+                                        <div class="col-lg-8">
+                                            <input asp-for="QuartleyInstall" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label -for="IsDefault" class="control-label col-lg-4"> Default Plan</label>
+                                        <input asp-for="IsDefault" class="chiller_cb" id="IsDefault" type="checkbox">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-lg-2 col-sm-3 hidden">
+                                    <div class="form-group">
+                                        <label>Sr</label>
+                                        <input id="Sr" class="form-control on-focus-change-color" type="text" />
+                                        <input id="PlanDetailId" class="form-control on-focus-change-color hidden" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label class=" control-label" -for="BlockId">Bubble Duration</label>
+                                        <select -for="BlockId" id="BubbleDuration" name="BubbleDuration" class="form-control" data-validation="required">
+                                            <option selected="selected" disabled>Select...</option>
+                                            <option value="3">Quarterly</option>
+                                            <option value="4">After 4 Month</option>
+                                            <option value="6">Half Yearly</option>
+                                            <option value="12">Annualy</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-3">
+                                    <div class="form-group">
+                                        <label>Bubble Amount</label>
+                                        <input id="Amount" class="form-control on-focus-change-color" onchange="calculateInstallments();" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <label class=" control-label" -for="BlockId">Installment Plan</label>
+                                        <select -for="InstallmentPlan" id="InstallmentPlan" name="InstallmentPlan" onchange="setNoOfInstalllments();" class="form-control" data-validation="required">
+                                            <option selected="selected" disabled>Select...</option>
+                                            @for (int i = 1; i <= 10; i++)
+                                            {
+                                                <option value=@i> @i Year</option>
+                                            }
+
+                                            @*<option value="2">After 4 Month</option>
+                                                <option value="3">Half Yearly</option>
+                                                <option value="4">Annualy</option>*@
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-1 m-t-md">
+                                    <div class="form-group pull-right">
+                                        <button tabindex="12" id="btnAdd1" type="button" class="btn btn-primary" onclick="addrows();">ADD</button>
+                                        <button id="btnUpdateMaster" style="display:none;" type="button" onclick="updaterows();" class="btn btn-primary">Update</button>
+                                        <button tabindex="12" id="btnref" type="button" class="btn btn-info" onclick="refreshGrid();">Refresh</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <input hidden id="tblPaymentPlanDetails" name="tblPaymentPlanDetails" type="text" />
+
+                    <div class="container-fluid" style="background-color:white;">
+
+                        <table id="tblpaymentPlan" name="tableitems" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>Due Date</th>
+                                    <th>Bubble Duration</th>
+                                    <th>Amount</th>
+                                    <th hidden>Action </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.PaymentPlanDetails != null)
+                                {
+                                    @if (Model.PaymentPlanDetails.Count > 0)
+                                    {
+                                        foreach (var items in Model.PaymentPlanDetails)
+                                        {
+                                            var bubbleType = "";
+                                            if (@items.BubbleDuration == 3)
+                                            {
+                                                bubbleType = "Quarterly";
+                                            }
+                                            else if (@items.BubbleDuration == 4)
+                                            { bubbleType = "After 4 Month"; }
+                                            else if (@items.BubbleDuration == 6)
+                                            { bubbleType = "Half Yearly"; }
+                                            else if (@items.BubbleDuration == 12)
+                                            { bubbleType = "Annualy"; }
+                                            <tr>
+                                                <td name='PlanDetailId' hidden class='PlanDetailId'>@items.PlanDetailId</td>
+                                                <td name='Sr' class='Sr'>@items.Sr </td>
+                                                <td name='DueDate' class='text-left DueDate'>@items.DueDate</td>
+                                                <td name='ItemId' hidden class='ItemId'>@items.BubbleDuration</td>
+                                                <td name='itemt' class='text-left itemt'>@bubbleType</td>
+                                                <td name='Amount' class='text-right Amount'>@items.Amount</td>
+                                                <td hidden class="text-center"><a class="btn btn-sm btn-info"> <i class="fa fa-edit" title="Edit"></i></a><a class=""> </a><a class="btn btn-danger"><i class="fas fa-trash remove-row"></i></a></td>
+                                            </tr>
+                                            count++;
+
+                                        }
+                                    }
+                                }
+
+                            </tbody>
+                            <tfoot align="right">
+                                <tr><th></th><th></th><th class='text-right'>Total :</th><th class='text-right'>0.00</th></tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/PaymentPlan/Index" sp-controller="PaymentPlan" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="PaymentPlan" />
+                                @if (Model.Id != 0)
+                                {
+                                    <a href="~/Report/PrintBaseReport?id=@Model.Id&&reportName=PaymentPlan">Print</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script src="~/js/Journal/PaymentPlan.js"></script>
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            var BlockId = $('#BlockId').val();
+            var PayableAmount = Number($('#PayableAmount').val());
+            var NoOfInstallment = Number($('#NoOfInstallment').val());
+            var BubbleAmount = Number($('#BubbleAmount').val());
+            if (PlotId == "Select...") {
+                swal("", "Please Select Plot Field.", "error");
+                return false;
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Plot First", "error");
+                return false;
+            }
+            if (BlockId == null) {
+                swal("", "Please Select Block First", "error");
+                return false;
+            }
+            if (PayableAmount == "0") {
+                swal("", "Please Select Payable Amount First", "error");
+                return false;
+            }
+            if (NoOfInstallment == "0") {
+                swal("", "Please Select No Of Installment First", "error");
+                return false;
+            }
+            if (BubbleAmount == 0) {
+                swal("", "Grid must Contain One Record", "error");
+                return false;
+            }
+            return true;
+        }
+
+       function clearTexBox(){
+             $('#BlockId').val(0);
+             $('#PayableAmount').val(0);
+             $('#NoOfInstallment').val(0);
+             $('#BubbleAmount').val(0);
+        }
+
+        $(document).ready(function () {
+            //var count = 1;
+            validate();
+            $('#tblpaymentPlan tbody tr').each(function (idx) {
+                $(this).children("td:eq(0)").html(idx + 1);
+                $(this).children("td:eq(1)").html(idx + 1);
+            });
+        });
+    </script>
+
+    <script>
+
+        //function addrows() {
+        //    debugger;
+        //    var count = 1;
+        //    var iteration = 0;
+        //    var nofLoops = 0;
+        //    var PlanDetailId = $("#PlanDetailId").val();
+        //    var itemt = $("#BubbleDuration option:selected").text();
+        //    var itemv = $("#BubbleDuration option:selected").val();
+        //    var iPlant = $("#InstallmentPlan option:selected").text();
+        //    var iPlanV = Number($("#InstallmentPlan option:selected").val());
+        //    $("#tblpaymentPlan tbody").empty();
+        //    var DueDate = new Date();
+        //    if (iPlanV != 0) {
+        //        nofLoops = iPlanV * 4
+        //    }
+        //    var Sr = $("#Sr").val();
+        //    if (itemt == "Quarterly") {
+        //        iteration = 3;
+
+        //    } else if (itemt == "After 4 Month") {
+        //        iteration = 4;
+
+        //    }
+        //    else if (itemt == "Half Yearly") {
+        //        iteration = 6;
+
+        //    }
+        //    else if (itemt == "Annualy") {
+        //        iteration = 12;
+
+        //    }
+        //    var Amount = Number($("#Amount").val());
+        //    if ((Amount != 0)) {
+        //        for (i = 0; i < nofLoops; i++) {
+        //            if (i == 0) {
+        //                DueDate = getNewDate(itemt, 0, i);
+        //            } else {
+        //                DueDate = getNewDate(itemt, Number(iteration) * i, i);
+        //            }
+        //            debugger;
+
+        //            var row = "<tr>" +
+        //                "<td name='PlanDetailId' hidden class='PlanDetailId'>" + PlanDetailId + "</td>" +
+        //                "<td name='Sr'  class='Sr' >" + count + "</td>" +
+        //                "<td name='DueDate' class='DueDate'>" + DueDate + "</td>" +
+        //                "<td name='ItemId' hidden class='ItemId'> " + itemv + "</td>" +
+        //                "<td class='itemt' name='itemt'>" + itemt + "</td>" +
+        //                "<td name='Amount'  class='Amount text-right'>" + Amount + "</td>" +
+        //                '"<td hidden class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+        //                "</tr>";
+        //            count++;
+        //            $("#tblpaymentPlan tbody").append(row);
+        //        }
+
+        //    }
+        //    else if (itemt == "Select...") {
+        //        swal("", "Please Select Bubble Duration ", "error");
+        //        return false;
+        //    }
+        //    else {
+
+        //        swal("", "Amount Should be Grater than 0!", "error");
+        //        return false;
+        //    }
+
+        //    validate();
+        //    //clearScreen();
+        //}
+
+        function updaterows() {
+
+            debugger;
+            var PlanDetailId = $("#PlanDetailId").val();
+            var Sr = $("#Sr").val();
+            var DueDate = $("#BookingDate").val();
+            var Amount = Number($("#Amount").val());
+            var itemt = $("#BubbleDuration option:selected").text();
+            var itemv = $("#BubbleDuration option:selected").val();
+
+            if (Amount != "" || Amount != 0) {
+
+            }
+            else {
+                swal("", "Amount Should be Grater than 0!", "info");
+                return;
+            }
+
+            var row = "<tr>" +
+                "<td name='PlanDetailId' hidden class='PlanDetailId'>" + PlanDetailId + "</td>" +
+                "<td name='Sr'  class='Sr' >" + Sr + "</td>" +
+                "<td name='DueDate' class='DueDate'>" + DueDate + "</td>" +
+                "<td hidden name = 'ItemId1' class='ItemId'> " + itemv + "</td >" +
+                "<td class='itemt' value=" + itemt + " >" + itemt + "</td>" +
+                "<td name='Amount' class='Amount'>" + Amount + "</td>" +
+                '"<td hidden class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+                "</tr>";
+
+            $("#tblpaymentPlan tbody ").append(row);
+            $('#btnUpdateMaster').css('display', 'none');
+            $('#btnAdd1').css('display', 'block');
+
+
+        }
+    </script>
+
+    <script>
+        $("#tblpaymentPlan tbody").on("click", ".fa-edit", function () {
+            //    var check = "";
+            if ($('#btnUpdateMaster').css('display') == 'none') {
+
+                debugger;
+                $('#AccountId').val('');
+                var $item0 = Number($(this).closest("tr")
+                    .find(".PlanDetailId")
+                    .html());
+                var $item1 = Number($(this).closest("tr")
+                    .find(".Sr")
+                    .html());
+                var $item2 = $(this).closest("tr")
+                    .find(".DueDate")
+                    .html();
+                var $item3 = $(this).closest("tr")
+                    .find(".Amount")
+                    .html();
+                var $item4 = Number($(this).closest("tr")
+                    .find(".ItemId")
+                    .html());
+                // $("#DueDate").val("2013-03-18T13:00");
+
+
+                $('#PlanDetailId').val($item0);
+                $('#Sr').val($item1);
+                $('#DueDate').text($item2);
+                $('#Amount').val($item3);
+                $('#BubbleDuration').val($item4);
+                $(this).closest("tr").remove();
+                $('#btnUpdateMaster').css('display', 'block');
+                $('#btnAdd1').css('display', 'none');
+
+                validate();
+
+            }
+            else if ($('#btnUpdateMaster').css('display') == 'block') {
+
+                swal("", "Please Finish Updating .", "warning");
+            }
+        });
+
+        $("#tblpaymentPlan tbody").on("click", ".remove-row", function () {
+
+            $(this).closest('tr').remove();
+            validate();
+
+        });
+
+    </script>
+
+<script>
+    function addrows() {
+        debugger;
+        var count = 1;
+        var countrow = 0;
+        var iteration = 0;
+        var nofLoops = 0;
+        var bubbleAmount =Number( $("#Amount").val());
+        var bubbleamountCheck = bubbleAmount;
+        var PlanDetailId = $("#PlanDetailId").val();
+        var itemt = $("#BubbleDuration option:selected").text();
+        var itemv = Number( $("#BubbleDuration option:selected").val());
+        var iPlant = $("#InstallmentPlan option:selected").text();
+        var iPlanV = Number($("#InstallmentPlan option:selected").val());
+        var noOfInstallment = 0;
+        var durration = itemv;
+        $("#tblpaymentPlan tbody").empty();
+        var DueDate = new Date();
+        if (iPlanV != 0) {
+            nofLoops = iPlanV * 12
+        }
+       
+        var installmentAmount =Number( $("#InstallmentAmount").val());
+        var Sr = $("#Sr").val();
+        if (itemt == "Quarterly") {
+            //iteration = 3;
+
+        } else if (itemt == "After 4 Month") {
+           // iteration = 4;
+
+        }
+        else if (itemt == "Half Yearly") {
+           // iteration = 6;
+
+        }
+        else if (itemt == "Annualy") {
+           // iteration = 12;
+
+        }
+      //  var Amount = Number($("#Amount").val());
+        var Amount = installmentAmount;
+        
+        if ((Amount != 0)) {
+            if (bubbleAmount != null) {
+
+                if (itemt == "Quarterly") {
+                    bubbleAmount = bubbleAmount / 4;
+
+                } else if (itemt == "After 4 Month") {
+                    bubbleAmount = bubbleAmount /  3;
+
+                }
+                else if (itemt == "Half Yearly") {
+                    bubbleAmount = bubbleAmount / 2;
+
+                }
+                else if (itemt == "Annualy") {
+                    bubbleAmount = bubbleAmount / 1;
+
+                }
+                
+
+            }
+            //Amount = Amount / nofLoops;
+            for (i = 0; i < nofLoops; i++) {
+
+
+                //while (itemv == countrow)
+                //    do {
+
+                //    }
+                if (itemv == count) {
+                    if (bubbleamountCheck != 0) {
+                        installmentAmount = Number(installmentAmount) + Number(bubbleAmount);
+                        bubbleamountCheck -= Number(bubbleAmount);
+                    }
+                    itemv += durration;
+                }
+                else {
+                    installmentAmount = Amount;
+                }
+
+                if (i == 0) {
+                    DueDate = getNewDate(itemt, 0, i);
+                } else {
+                   // DueDate = getNewDate(itemt, Number(iteration) * i, i);
+                    DueDate = getNewDate(itemt, i, i);
+                }
+                debugger;
+
+                var row = "<tr>" +
+                    "<td name='PlanDetailId' hidden class='PlanDetailId'>" + PlanDetailId + "</td>" +
+                    "<td name='Sr'  class='Sr' >" + count + "</td>" +
+                    "<td name='DueDate' class='DueDate'>" + DueDate + "</td>" +
+                    "<td name='ItemId' hidden class='ItemId'> " + itemv + "</td>" +
+                    "<td class='itemt' name='itemt'>" + itemt + "</td>" +
+                    "<td name='Amount'  class='Amount text-right'>" + installmentAmount + "</td>" +
+                    '"<td hidden class="text-center"> <a  class="btn btn-sm btn-info  "> <i class="fa fa-edit" title="Edit"></i></a ><a class=""> </a ><a class="btn btn-danger"><i class="fas fa-trash remove-row"></a></td>"' +
+                    "</tr>";
+                count++;
+                countrow++;
+                $("#tblpaymentPlan tbody").append(row);
+            }
+
+        }
+        else if (itemt == "Select...") {
+            swal("", "Please Select Bubble Duration ", "error");
+            return false;
+        }
+        else {
+
+            swal("", "Amount Should be Grater than 0!", "error");
+            return false;
+        }
+       
+        validate();
+        //clearScreen();
+    }
+    function setNoOfInstalllments() {
+        var iPlanV = Number($("#InstallmentPlan option:selected").val());
+        if (iPlanV != 0) {
+            var nofLoops = iPlanV * 12;
+            $('#NoOfInstallment').val(nofLoops);
+            $('#BubbleAmount').val($('#Amount').val());
+            calculateInstallments();
+        }
+    }
+</script>
+
+
+}

@@ -1,0 +1,113 @@
+﻿@model VoucherType
+@{
+    ViewData["Title"] = "Create Voucher Type";
+    ViewData["CurrentPage"] = "Voucher Type";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+              
+                <h2 style="color:red;"> <label class="control-label"> Voucher Type Defination </label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="VoucherTypeForm" method="post" asp-action="Create" asp-controller="VoucherType" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="VoucherTypesID" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="VoucherTypesID" class="col-lg-4 control-label">Id</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="VoucherTypesID" readonly value="@TempData["No"]" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="VoucherTypesID" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="Type" class="col-lg-4 control-label">Voucher Type</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Type" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Type" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="VoucherTypeDescription" class="col-lg-4 control-label">Voucher Type Description</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="VoucherTypeDescription" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="VoucherTypeDescription" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="VoucherTypeRemarks" class="col-lg-4 control-label">Voucher Type Remarks</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="VoucherTypeRemarks" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="VoucherTypeRemarks" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 chiller_cb">
+                            <div class="chiller_cb pull-right">
+                                <input asp-for="IsAutoPost" id="myCheckbox" type="checkbox" checked>
+                                <label for="myCheckbox">Auto Post</label>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="VoucherType">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+
+}

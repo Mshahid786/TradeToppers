@@ -1,0 +1,255 @@
+﻿@model TechBiteERP.Model.Models.PlotSale
+
+
+@{
+    ViewData["Title"] = "Sale";
+    ViewData["CurrentPage"] = "Sale";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h2 style="color:red;"> <label class="control-label">  Add New Sale </label></h2>
+                <span class="label label-success pull-right status"></span>
+            </div>
+            <div class="ibox-content ibox-content-1">
+                <form class="form-horizontal" asp-action="Create" asp-controller="Sale" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotId">Plot</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotId" asp-items="@ViewBag.Items" onchange="getItemDetail();" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PlotId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Block" class="control-label col-lg-4">  Block</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Block" class="form-control" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Size" class="control-label col-lg-4">  Size</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Size" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="PlotStatusId">Plot Status</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="PlotStatusId" asp-items="@ViewBag.PlotStatus" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="PlotStatusId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Width" class="control-label col-lg-4">  Width</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Width" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Length" class="control-label col-lg-4">  Length</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Length" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="Height" class="control-label col-lg-4">  Height</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="Height" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="Factor">Factor</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="Factor" asp-items="@ViewBag.ItemTypes" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="Factor" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="ReservedBy" class="control-label col-lg-4">  Reserved By</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ReservedBy" value="@TempData["ReservedBy"]" readonly class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label asp-for="ReservedFor" class="control-label col-lg-4">  Reserved For</label>
+                                        <div class="col-lg-8">
+                                            <input asp-for="ReservedFor" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label  -for="Price" class="control-label col-lg-4">  Price</label>
+                                        <div class="col-lg-8">
+                                            <input type="number" asp-for="Price" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="col-lg-4 control-label" asp-for="ReservedForMMD">Reserved For MMD</label>
+                                        <div class="col-lg-8">
+                                            <select asp-for="ReservedForMMD" asp-items="@ViewBag.CustomerMMD" class="form-control" data-validation="required">
+                                                <option selected="selected" disabled>Select...</option>
+                                            </select>
+                                            <span asp-validation-for="ReservedForMMD" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="form-group">
+                            <div class="col-lg-4 col-lg-offset-2">
+                                <a class="btn btn-white" href="/RealEstate/Sale/Index" sp-controller="Sale" sp-action="Index">Back</a>
+                                <input type="submit" value="Submit" class="btn btn-info" asp-action="Create" asp-controller="Sale" />
+                                @if (Model.Id != 0)
+                                {
+                                    <a class="btn btn-primary" href="~/Report/PrintBaseReport?id=@Model.Id&&reportName=PlotSale">Print</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section customJS{
+    <script src="~/lib/jquery-form-validator/jquery.form-validator.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+
+        function checkValidation() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            var PlotStatusId = $('#PlotStatusId').val();
+            var Factor = $('#Factor').val();
+            var ReservedForMMD = $('#ReservedForMMD').val();
+            var ReservedFor = $('#ReservedFor').val();
+            var Price =Number($('#Price').val());
+            if (PlotId == "Select...") {
+                swal("", "Please Select Plot Field.", "error");
+                return false;
+
+            }
+            if (PlotId == null) {
+                swal("", "Please Select Plot First", "error");
+                return false;
+
+            }
+            if (PlotStatusId == null) {
+                swal("", "Please Select Plot Status First", "error");
+                return false;
+
+            }
+            if (Factor == null) {
+                swal("", "Please Select Factor First", "error");
+                return false;
+
+            }
+            if (ReservedFor == 0) {
+                swal("", "Please Enter Reserved For First", "error");
+                return false;
+            }
+            if (Price == 0) {
+                swal("", "Price should be greater than 0", "error");
+                return false;
+            }
+            if (ReservedForMMD == null) {
+                swal("", "Please Select MMD First", "error");
+                return false;
+
+            }
+            
+            return true;
+        }
+
+        function getItemDetail() {
+            debugger;
+            var PlotId = $('#PlotId').val();
+            $.ajax({
+                url: '/RealEstate/Sale/getItemDetail?id=' + PlotId,
+                type: 'GET'
+            }).done(function (data) {
+                debugger;
+                $('#Block').val(data.blockID);
+                $('#Size').val(data.sizeID);
+                $('#Length').val(data.itemLength);
+                $('#Height').val(data.itemHeight);
+                $('#Width').val(data.itemWidth);
+
+                if (data.itemID != null) {
+                    $.ajax({
+                        url: '/RealEstate/Sale/getItemPrice?id=' + data.itemID,
+                        type: 'GET'
+                    }).done(function (data) {
+                        debugger;
+                        if (data != undefined)
+                            $('#Price').val(data.price);
+                        else
+                            $('#Price').val(0)
+
+                    });
+
+                }
+            });
+        }
+    </script>
+}

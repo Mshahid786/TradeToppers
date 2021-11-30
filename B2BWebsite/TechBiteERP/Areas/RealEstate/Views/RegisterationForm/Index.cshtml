@@ -1,0 +1,67 @@
+﻿@model IEnumerable<TechBiteERP.Model.Models.RegisterationForms>
+
+@{
+    ViewData["Title"] = "List Registeration Forms";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>List Registeration Forms</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="ibox-content">
+    <table class="table dataTable_Responsive">
+        <thead>
+            <tr>
+                <th>
+                    SR.No
+                </th>
+                <th>
+                    Form Code
+                </th>
+                <th>
+                    Form No Start
+                </th>
+                <th>
+                    Form No End
+                </th>
+                <th>
+                   Server
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td> 
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormCode)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormNoStart)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormNoEnd)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Branch.POSName)
+                    </td>
+
+                    <td>
+                        <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-angle-right"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs"><i class="fa fa-trash"></i></a>
+                        <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=RegisterationForms">Print</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

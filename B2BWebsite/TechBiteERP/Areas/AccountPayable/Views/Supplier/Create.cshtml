@@ -1,0 +1,315 @@
+﻿@model Supplier
+@{
+    ViewData["Title"] = "Create Supplier";
+    ViewData["CurrentPage"] = "Supplier";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+               
+                <h2 style="color:red;"> <label class="control-label"> Supplier Defination </label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="SalesmanForm" method="post" asp-action="Create" asp-controller="Supplier" enctype="multipart/form-data" onsubmit="return checkValidation();">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="Id" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Name" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Name" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="SupplierAccountId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="SupplierAccountId" class="form-control" asp-for="SupplierAccountId" asp-items="@ViewBag.Country">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="SupplierAccountId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CityId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="CityId" class="form-control" asp-for="CityId" asp-items="@ViewBag.City">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CityId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Address" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Address" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ContactPerson" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="ContactPerson" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="ContactPerson" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="STN" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="STN" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="STN" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="NTN" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="NTN" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="NTN" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="PhoneNo" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="PhoneNo" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="PhoneNo" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="MobileNo" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="MobileNo" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="FaxNo" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="FaxNo" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="FaxNo" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="To" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="To" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="To" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CreditLimitAccount" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CreditLimitAccount" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CreditLimitAccount" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CC" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="To" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="To" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label  -for="CreditDays" class="col-lg-4 control-label">Credit Days</label>
+                                <div class="col-lg-8">
+                                    <input asp-for="CreditDays" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="CreditDays" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="BCC" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="BCC" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="BCC" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 chiller_cb">
+                            <div class="chiller_cb">
+                                <input asp-for="checkCrLimit" id="checkCrLimit" type="checkbox" checked>
+                                <label asp-for="checkCrLimit"></label>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Comments" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Comments" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Comments" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 chiller_cb">
+                            <div class="chiller_cb">
+                                <input asp-for="BlackListed" id="BlackListed" type="checkbox" checked>
+                                <label asp-for="BlackListed"></label>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="Supplier">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+    <script>
+        function checkValidation() {
+            debugger;
+            var Name = $('#Name').val();
+            var SupplierAccountId = $('#SupplierAccountId').val();
+            var CityId = $('#CityId').val();
+            var Address = $('#Address').val();
+            var ContactPerson = $('#ContactPerson').val();
+            var STN = $('#STN').val();
+            var NTN = $('#NTN').val();
+            var PhoneNo = $('#PhoneNo').val();
+            var MobileNo = $('#MobileNo').val();
+            var CreditDays =Number($('#CreditDays').val());
+
+            if (Name == "") {
+                swal("", "Please Enter Name First", "error");
+                return false;
+            }
+            if (SupplierAccountId == "Select...") {
+                swal("", "Please Select Supplier Account First", "error");
+                return false;
+            }
+            if (CityId == "Select...") {
+                swal("", "Please Select City First", "error");
+                return false;
+            }
+            if (Address == "") {
+                swal("", "Please Enter Address First", "error");
+                return false;
+            }
+            if (ContactPerson == "") {
+                swal("", "Please Enter Contact Person First", "error");
+                return false;
+            }
+            if (STN == "") {
+                swal("", "Please Enter STN First", "error");
+                return false;
+            }
+            if (NTN == "") {
+                swal("", "Please Enter NTN First", "error");
+                return false;
+            }
+            if (PhoneNo == "") {
+                swal("", "Please Enter Phone No First", "error");
+                return false;
+            }
+            if (MobileNo == "") {
+                swal("", "Please Enter Mobile No First", "error");
+                return false;
+            }
+            if (CreditDays == "0") {
+                swal("", "Please Enter Credit Days First", "error");
+                return false;
+            }
+            
+            return true;
+        }
+    </script>
+}

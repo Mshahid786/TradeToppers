@@ -1,0 +1,180 @@
+﻿@model Salesman
+@{
+    ViewData["Title"] = "Create Salesman";
+    ViewData["CurrentPage"] = "Salesman";
+
+}
+@section customCSS{
+    <link href="~/css/plugins/jsGrid/jsgrid.css" rel="stylesheet" />
+    <link href="~/css/plugins/jsGrid/jsgrid-theme.css" rel="stylesheet" />
+    <link href="~/css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/plugins/codemirror/codemirror.css" rel="stylesheet">
+    <style>
+        .jsgrid-grid-body {
+            height: auto !important;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                
+                <h2 style="color:red;"> <label class="control-label"> Salesman Defination </label></h2>
+            </div>
+            <div class="ibox-content">
+                <form class="form-horizontal" id="SalesmanForm" method="post" asp-action="Create" asp-controller="SalesMan" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div>
+                        <input type="hidden" asp-for="Id" />
+                    </div>
+                    <div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Name" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <input asp-for="Name" data-validation="required" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="EmployeeId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="EmployeeId" class="form-control" asp-for="EmployeeId" asp-items="@ViewBag.Country">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CountryId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="CountryId" class="form-control" asp-for="CountryId" asp-items="@ViewBag.Country" >
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CountryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ProvinceId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="ProvinceId" class="form-control" asp-for="ProvinceId" asp-items="@ViewBag.Province">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="ProvinceId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="RegionId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="RegionId" class="form-control" asp-for="RegionId" asp-items="@ViewBag.Region" >
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="RegionId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="DistrictId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="DistrictId" class="form-control" asp-for="DistrictId" asp-items="@ViewBag.District">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="DistrictId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="CityId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="CityId" class="form-control" asp-for="CityId" asp-items="@ViewBag.City">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="CityId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="AreaId" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="AreaId" class="form-control" asp-for="AreaId" asp-items="@ViewBag.Area">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="AreaId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="SMGLCode" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="SMGLCode" class="form-control" asp-for="SMGLCode" asp-items="@ViewBag.Area" data-validation="required" data-validation-error-msg="Account is required" data-validation-error-msg-container="#account">
+                                        <option selected="selected" disabled>Select...</option>
+                                    </select>
+                                    <span asp-validation-for="SMGLCode" class="text-danger"></span>
+                                    <span id="account"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="ImprestGlCode" class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    <select name="ImprestGlCode" class="form-control" asp-for="ImprestGlCode" asp-items="@ViewBag.Area">
+                                        <option selected="selected">Select...</option>
+                                    </select>
+                                    <span asp-validation-for="ImprestGlCode" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <a class="btn btn-white" asp-action="Index" asp-controller="SalesMan">Back</a>
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section customJS{
+    <script src="~/lib/validate/jquery.validate.min.js"></script>
+
+}

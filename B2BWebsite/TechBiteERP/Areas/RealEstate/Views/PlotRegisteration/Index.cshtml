@@ -1,0 +1,146 @@
+﻿@model IEnumerable<TechBiteERP.Model.ViewModels.PlotRegisterationViewModel>
+
+@{
+    ViewData["Title"] = "Plot Registeration";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<style>
+    .my-custom-scrollbar {
+        position: relative;
+        height: 200px;
+        overflow: auto;
+    }
+</style>
+<h2>Registeration 💨 List of @ViewBag.PageHeading Plots</h2>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+ 
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <div class="ibox-content">
+                    <p>
+                        <a class="btn" asp-action="Create">Create New</a>
+                    </p>
+                    <br /><br />
+                    <div class=".my-custom-scrollbar">
+                    <table class="table table-bordered table-striped   dataTable_Responsive">
+                        <thead>
+                            <tr>
+                                <th hidden>
+                                    SR.No
+                                </th>
+                                <th>
+                                    Block
+                                </th>
+                                <th>
+                                    Plot
+                                </th>
+                                <th>
+                                    Plot Status
+                                </th>
+                                <th>
+                                    Customer Name
+                                </th>
+                                <th>
+                                    CNIC
+                                </th>
+                                <th>
+                                    Mobile No
+                                </th>
+                                <th>
+                                    Address
+                                </th>
+                                <th>
+                                    Deal Amount
+                                </th>
+                                <th>
+                                    Reg.Date
+                                </th>
+                                <th>
+                                    Reserved By
+                                </th>
+                                <th>
+                                    Reserved For
+                                </th>
+                                <th>
+                                    Transfer Status
+                                </th>
+                                <th>
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="my-custom-scrollbar">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td hidden>
+                                        @Html.DisplayFor(modelItem => item.Id)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Block)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PlotName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.plotStatus)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CustomerName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CNIC)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.MobileNo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Address)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DealPrice)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CreationDate)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ReservedBy)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ReservedFor)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Status)
+                                    </td>
+                                    <td>
+                                        @{ if (item.Status == "Transfer")
+                                            {
+                                                @*<a asp-action="Transfer" asp-route-id="@item.Id">Edit</a>*@
+                                                @*<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                                                <a class="btn-dark" href="~/Report/PrintBaseReport?id=@item.Id&&reportName=PlotTransfer">Print</a>
+                                            }
+                                            else if (item.Status == "Register")
+                                            {
+                                                <a asp-action="Create" class="btn btn-sm btn-primary m-t-n-xs" asp-route-id="@item.Id"><i class="fa fa-angle-right"></i></a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger m-t-n-xs"><i class="fa fa-trash"></i></a>
+                                                <a asp-action="Transfer" asp-route-id="@item.Id">Transfer</a>
+                                                <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=BookingCertificate">Booking Certificate</a>
+                                                <a href="~/Report/PrintBaseReport?id=@item.Id&&reportName=Registeration">Print</a>
+                                            }
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
